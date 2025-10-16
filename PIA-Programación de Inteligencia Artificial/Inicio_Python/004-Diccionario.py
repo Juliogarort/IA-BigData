@@ -1,13 +1,3 @@
-# Crea un programa que:
-# 1. Declare un diccionario llamado estudiante con las siguientes claves y valores:
-# o "nombre": "Ana"
-# o "edad": 22
-# o "curso": "Matemáticas"
-# 2. Cambia el valor de "edad" a 23.
-# 3. Agrega una nueva clave "promedio" con el valor 8.5.
-# 4. Imprime todas las claves del diccionario.
-# 5. Imprime el valor asociado a la clave "nombre".
-
 # 1. Declarar el diccionario
 estudiante = {
     "nombre": "Ana",
