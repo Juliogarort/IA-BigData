@@ -2,4 +2,7 @@
 
 cadenas = ["Hola", "mundo", "esto", "es", "Python"]
 cadena_concatenada = " ".join(cadenas)
+
+print("--------------------")
 print("Cadena concatenada:", cadena_concatenada)
+print("--------------------")
