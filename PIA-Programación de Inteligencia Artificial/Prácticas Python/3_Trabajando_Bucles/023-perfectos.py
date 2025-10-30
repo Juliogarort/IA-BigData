@@ -11,7 +11,6 @@ def es_numero_perfecto(numero):
             
     return suma_divisores == numero
 
-# Solicitar al usuario un número
 numero_usuario = int(input("Introduce un número para verificar si es perfecto: "))
 if es_numero_perfecto(numero_usuario):
     print(f"{numero_usuario} es un número perfecto.")
