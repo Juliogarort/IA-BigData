@@ -1,0 +1,22 @@
+  [  {
+        "matricula": "1234ABC",
+        "marca": "Seat",
+        "modelo": "Ibiza",
+        "año": "2020",
+        "propietario_email": "tugordibueno@gmail.com"
+    },
+        {
+        "matricula": "5678DEF",
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "año": "2018",
+        "propietario_email": "maria.lopez@hotmail.com"
+    },
+    {
+        "matricula": "9012GHI",
+        "marca": "Ford",
+        "modelo": "Fiesta",
+        "año": "2022",
+        "propietario_email": "carlos.ruiz@yahoo.es"
+    }
+  ]

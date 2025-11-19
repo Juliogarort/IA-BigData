@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "Oc Rinconero",
+        "email": "oc@gmail.com",
+        "telefono": "612345678",
+        "codigo_postal": "41300",
+        "curso": "DAW2"
+    },
+    {
+        "nombre": "Parra",
+        "email": "tugordibueno@gmail.com",
+        "telefono": "612345678",
+        "codigo_postal": "41020",
+        "curso": "DAW2"
+    },
+    {
+        "nombre": "Rogolo",
+        "email": "tugolfitomujeriego@gmail.com",
+        "telefono": "612345678",
+        "codigo_postal": "41020",
+        "curso": "DAW2"
+    }
+]
