@@ -31,12 +31,18 @@ def contar_palabras_totales(contenido):
     print(f"Total de palabras: {total}")
     return total
 
+import unicodedata
+
 def contar_palabra_capitulo(contenido):
-    # Convertir todo a minúsculas para ignorar el formato
-    contenido_lower = contenido.lower()
-    # Buscar la palabra "capítulo" (con tilde y sin tilde)
-    count_con_tilde = contenido_lower.count("capítulo")
-    count_sin_tilde = contenido_lower.count("capitulo")
+    # Normalizar el contenido a forma compuesta (NFC)
+    contenido_normalizado = unicodedata.normalize('NFC', contenido.lower())
+    
+    # Normalizar las variantes de "capítulo" que podríamos buscar
+    palabra_con_tilde = unicodedata.normalize('NFC', "capítulo")
+    palabra_sin_tilde = "capitulo"  # esta no tiene tildes, así que no necesita normalización
+
+    count_con_tilde = contenido_normalizado.count(palabra_con_tilde)
+    count_sin_tilde = contenido_normalizado.count(palabra_sin_tilde)
     total = count_con_tilde + count_sin_tilde
     
     print(f"\n{'='*60}")
@@ -51,7 +57,8 @@ def crear_archivos_por_capitulo(contenido):
     print(f"3. CREANDO ARCHIVOS POR CAPÍTULO")
     print(f"{'='*60}")
     
-    patron = r'CAP[IÍ]TULO\s+[IVXLCDM]+|CAP[IÍ]TULO\s+\d+'
+    # patron = r'CAP[IÍ]TULO\s+[IVXLCDM]+|CAP[IÍ]TULO\s+\d+'
+    patron = r'^\s*CAP[IÍ]TULO\b.*$'
     capitulos = re.split(patron, contenido, flags=re.IGNORECASE)
     titulos_capitulos = re.findall(patron, contenido, flags=re.IGNORECASE)
     
