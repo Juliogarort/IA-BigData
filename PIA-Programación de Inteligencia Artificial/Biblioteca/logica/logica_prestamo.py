@@ -5,7 +5,7 @@ from modelos.prestamo import Prestamo
 from logica import logica_libro, logica_usuario
 
 DIRECTORIO_BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RUTA_CSV_PRESTAMOS = os.path.join(DIRECTORIO_BASE, "datos", "biblioPrestamos_temp.csv")
+RUTA_CSV_PRESTAMOS = os.path.join(DIRECTORIO_BASE, "datos", "biblioPrestamos.csv")
 
 
 def leer_prestamos():

@@ -1,4 +1,3 @@
-# Importaciones de los módulos de lógica
 import os
 import shutil
 from logica import logica_libro
@@ -10,31 +9,8 @@ def mostrar_bienvenida():
     print(" "*10 + "SISTEMA DE GESTIÓN DE BIBLIOTECA")
 
 
-
-def inicializar_sistema():
-# Crea copias temporales de los archivos CSV para trabajar sobre ellas.
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    datos_dir = os.path.join(base_dir, "datos")
-    
-    archivos = [
-        ("biblioLibros.csv", "biblioLibros_temp.csv"),
-        ("biblioUsuarios.csv", "biblioUsuarios_temp.csv"),
-        ("biblioPrestamos.csv", "biblioPrestamos_temp.csv")
-    ]
-    
-    for original, temporal in archivos:
-        ruta_original = os.path.join(datos_dir, original)
-        ruta_temporal = os.path.join(datos_dir, temporal)
-        
-        if os.path.exists(ruta_original):
-            shutil.copy2(ruta_original, ruta_temporal)
-        else:
-            print(f"  ⚠ Advertencia: No se encuentra {original}")
-
-
 def menu_principal():
 
-    inicializar_sistema()
     mostrar_bienvenida()
     
     while True:

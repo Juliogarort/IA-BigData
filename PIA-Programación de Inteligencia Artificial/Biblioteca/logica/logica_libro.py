@@ -5,7 +5,7 @@ from modelos.libro import Libro
 
 # aqui usa los csv temporales, ya que usa como base el csv original para que cuando haga crud se haga sobre el temporal
 DIRECTORIO_BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RUTA_CSV_LIBROS = os.path.join(DIRECTORIO_BASE, "datos", "biblioLibros_temp.csv")
+RUTA_CSV_LIBROS = os.path.join(DIRECTORIO_BASE, "datos", "biblioLibros.csv")
 
 
 def leer_libros():

@@ -3,7 +3,7 @@ import os
 from modelos.usuario import Usuario
 
 DIRECTORIO_BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RUTA_CSV_USUARIOS = os.path.join(DIRECTORIO_BASE, "datos", "biblioUsuarios_temp.csv")
+RUTA_CSV_USUARIOS = os.path.join(DIRECTORIO_BASE, "datos", "biblioUsuarios.csv")
 
 
 def leer_usuarios():
