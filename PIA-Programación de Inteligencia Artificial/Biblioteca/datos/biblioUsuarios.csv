@@ -1,0 +1,6 @@
+id_usuario,nombre,apellidos,dni,correo_e,tlfno,direccion,edad
+1,Fernando,Alonso Díaz,12345678A,fernando.alonso@example.com,600111222,"Oviedo, Asturias",43
+2,Oc,Rinconero López,87654321B,oc.rinconero@example.com,600333444,"Rincón del Motor, España",30
+3,Rudi,Capitán Maestro,23456789C,capitan.rudito@example.com,600555666,"Campo Rudito, España",20
+4,Laura,Paddock García,34567890D,laura.paddock@example.com,600777888,"Box 14, Circuito",28
+5,Rafa,Rudito Hernández,45678901E,rafa.rudito@example.com,600999000,"Barrio Rudito, España",21

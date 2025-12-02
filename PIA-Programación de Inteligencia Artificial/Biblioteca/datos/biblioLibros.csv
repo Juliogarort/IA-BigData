@@ -1,0 +1,6 @@
+id_libro,titulo,autor,anyo,n_pags,genero,editorial,estado,disponible
+1,"Fernando","Alonso Díaz","12345678A","fernando.alonso@example.com","600111222","Oviedo, Asturias",43
+2,Estrategia Rudita: Dominando el Campo,Los Ruditos,2023,210,Fútbol,RuditoPress,Usado,True
+3,Oc Rinconero: El Misterio del Paddock,Oc Rinconero,2022,280,Ficción,Rinconero Eds,Nuevo,False
+4,Historia Técnica de la F1,FIA,2019,450,Automovilismo,MotorWorld,Usado,True
+5,"Ritmo, Cabeza y Corazón",Fernando Alonso,2020,190,Biografía,AsturBooks,Nuevo,True
