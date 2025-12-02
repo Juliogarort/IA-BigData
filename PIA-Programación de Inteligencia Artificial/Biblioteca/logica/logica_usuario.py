@@ -149,6 +149,91 @@ def baja_usuario():
         print("\nOperación cancelada. El usuario no ha sido eliminado.")
 
 
+def modificar_usuario():
+# Modifica el usuario que el usuario seleccione mediante su id
+
+    print("\n=== MODIFICAR USUARIO ===")
+    
+# Mostramos los usuarios disponibles
+    usuarios = leer_usuarios()
+    if not usuarios:
+        print("No hay usuarios registrados en el sistema")
+        return
+    
+    print("\nUsuarios registrados:")
+    for usuario in usuarios:
+        print(f"  {usuario}")
+    
+# Solicitamos el ID del usuario a modificar
+    id_usuario = input("\nIngrese el ID del usuario a modificar (o 'cancelar' para volver): ").strip()
+    
+    if id_usuario.lower() == 'cancelar':
+        return
+    
+# Buscamos el usuario
+    usuario_encontrado = None
+    for usuario in usuarios:
+        if usuario.id_usuario == id_usuario:
+            usuario_encontrado = usuario
+            break
+    
+    if not usuario_encontrado:
+        print(f"Error: No se encontró ningún usuario con ID {id_usuario}")
+        return
+    
+# Mostramos los datos actuales
+    print(f"\nDatos actuales del usuario '{usuario_encontrado.nombre} {usuario_encontrado.apellidos}':")
+    print(f"1. Nombre: {usuario_encontrado.nombre}")
+    print(f"2. Apellidos: {usuario_encontrado.apellidos}")
+    print(f"3. DNI: {usuario_encontrado.dni}")
+    print(f"4. Correo electrónico: {usuario_encontrado.correo_e}")
+    print(f"5. Teléfono: {usuario_encontrado.tlfno}")
+    print(f"6. Dirección: {usuario_encontrado.direccion}")
+    print(f"7. Edad: {usuario_encontrado.edad}")
+    
+# Solicitamos qué campo modificar
+    print("\n¿Qué campo desea modificar? (1-7, o 0 para cancelar)")
+    opcion = input("Opción: ").strip()
+    
+    if opcion == "0":
+        return
+    elif opcion == "1":
+        nuevo_valor = input("Nuevo nombre: ").strip()
+        if nuevo_valor:
+            usuario_encontrado.nombre = nuevo_valor
+    elif opcion == "2":
+        nuevo_valor = input("Nuevos apellidos: ").strip()
+        if nuevo_valor:
+            usuario_encontrado.apellidos = nuevo_valor
+    elif opcion == "3":
+        nuevo_valor = input("Nuevo DNI: ").strip()
+        if nuevo_valor:
+            usuario_encontrado.dni = nuevo_valor
+    elif opcion == "4":
+        nuevo_valor = input("Nuevo correo electrónico: ").strip()
+        if nuevo_valor:
+            usuario_encontrado.correo_e = nuevo_valor
+    elif opcion == "5":
+        nuevo_valor = input("Nuevo teléfono: ").strip()
+        if nuevo_valor:
+            usuario_encontrado.tlfno = nuevo_valor
+    elif opcion == "6":
+        nuevo_valor = input("Nueva dirección: ").strip()
+        if nuevo_valor:
+            usuario_encontrado.direccion = nuevo_valor
+    elif opcion == "7":
+        nuevo_valor = input("Nueva edad: ").strip()
+        if nuevo_valor:
+            usuario_encontrado.edad = nuevo_valor
+    else:
+        print("Opción no válida")
+        return
+    
+# Guardamos los cambios
+    guardar_usuarios(usuarios)
+    print("\n✓ Usuario modificado correctamente")
+
+
 def listar_usuarios():
 # Muestra un listado de todos los usuarios registrados
     print("\n=== LISTADO DE USUARIOS ===")
