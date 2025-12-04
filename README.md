@@ -12,4 +12,3 @@ El objetivo es aplicar técnicas de IA para resolver problemas reales, desde la 
 
 **Tecnologías principales:** Python | Machine Learning | Deep Learning | Big Data | Apache Spark | TensorFlow
 
-⭐ Sígueme en este viaje de aprendizaje en el mundo de la Inteligencia Artificial y los Datos
