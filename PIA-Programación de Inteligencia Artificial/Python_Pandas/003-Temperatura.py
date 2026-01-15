@@ -12,7 +12,7 @@ import numpy as np
 dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 temperaturas = []
 
-print("Ingrese las temperaturas de los días") 
+print("Ingrese las temperaturas de los días")
 
 # 1. Entrada de datos
 for dia in dias:
@@ -26,7 +26,7 @@ for dia in dias:
             print("Entrada inválida, se asignará NaN.")
             temperaturas.append(np.nan)
 
-# 2. Crear la Serie
+# 2. Creacion de la seria y calculo de temperatura max y min
 serie_dias = pd.Series(temperaturas, index=dias)
 
 print("\nTemperaturas registradas")
@@ -38,4 +38,31 @@ for dia, temp in serie_dias.items():
     else:
         print(f"{dia:<12}: {temp:.1f} °C")
 
+# 3. Rellenar valores NaN con la temperatura promedio
+temperatura_promedio = serie_dias.mean()
+serie_dias_completa = serie_dias.fillna(temperatura_promedio)
 
+# 4. Análisis - Temperatura máxima y mínima
+print(f"\nTemperatura máxima: {serie_dias_completa.max():.1f}°C")
+print(f"Temperatura mínima: {serie_dias_completa.min():.1f}°C")
+print(f"Temperatura promedio: {temperatura_promedio:.1f}°C")
+
+# 5. Días con temperatura por encima de 25°C
+print("\nDías con temperatura por encima de 25°C:")
+dias_calurosos = serie_dias_completa[serie_dias_completa > 25]
+if dias_calurosos.empty:
+    print("Ningún día tuvo temperatura superior a 25°C.")
+else:
+    for dia, temp in dias_calurosos.items():
+        print(f"{dia}: {temp:.1f}°C")
+
+# 6. Gráfico de temperaturas
+print("\nGráfica textual de temperaturas")
+print("-" * 40)
+
+for dia, temp in serie_dias_completa.items():
+    barras = int(temp + 20) if temp > -20 else 0
+    print(f"{dia:<12}: {'█' * barras} ({temp:.1f}°C)")
+
+
+print("")

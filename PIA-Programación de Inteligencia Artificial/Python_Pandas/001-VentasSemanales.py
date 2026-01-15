@@ -35,4 +35,10 @@ print(serie_ventas.idxmax())
 
 # 4. Días por encima del promedio
 print("\nDías de la semana con ventas por encima del promedio:")
-print(serie_ventas[serie_ventas > serie_ventas.mean()])
+ventas_altas = serie_ventas[serie_ventas > serie_ventas.mean()]
+
+if ventas_altas.empty:
+    print("Ningún día superó el promedio.")
+else:
+    for dia, venta in ventas_altas.items():
+        print(f"{dia}: {venta}")

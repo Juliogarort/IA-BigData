@@ -10,7 +10,8 @@ print("Ingrese las notas de los estudiantes de 0 hasta 100")
 for estudiante in estudiantes:
     while True:
         entrada = input(f"Ingrese la calificación de {estudiante}: ")
-        try:
+        try:print("\nDías de la semana con ventas por encima del promedio:")
+
             calificaciones.append(float(entrada))
             break
         except ValueError:
