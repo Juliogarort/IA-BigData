@@ -1,0 +1,19 @@
+Nombre,Apellidos,Correo,Edad,Programación T1,Programación T2,Programación T3,Base de Datos T1,Base de Datos T2,Base de Datos T3,Lenguajes T1,Lenguajes T2,Lenguajes T3,Sistemas T1,Sistemas T2,Sistemas T3,Entornos T1,Entornos T2,Entornos T3,Nota Final Programación,Nota Final Base de Datos,Nota Final Lenguajes,Nota Final Sistemas,Nota Final Entornos,Promedio General,Aprobado
+Carlos,Núñez,carlos.núñez@ejemplo.com,19,3,3,3,6,5,4,3,8,4,4,8,0,5,0,10,3.0,5.0,5.0,4.0,5.0,4.4,False
+Marta,Ortega,marta.ortega@ejemplo.com,24,6,5,2,2,5,9,3,6,9,6,7,4,5,7,2,4.33,5.33,6.0,5.67,4.67,5.2,True
+Raquel,Vargas,raquel.vargas@ejemplo.com,20,1,4,5,9,0,9,4,9,4,3,5,8,7,8,8,3.33,6.0,5.67,5.33,7.67,5.6,True
+Alejandro,Ruiz,alejandro.ruiz@ejemplo.com,24,3,4,9,8,9,10,6,2,8,6,6,5,7,0,7,5.33,9.0,5.33,5.67,4.67,6.0,True
+Pablo,Martínez,pablo.martínez@ejemplo.com,21,7,9,4,2,6,2,7,3,4,7,10,7,9,2,2,6.67,3.33,4.67,8.0,4.33,5.4,True
+Isabel,Jiménez,isabel.jiménez@ejemplo.com,24,4,9,3,6,3,3,9,4,0,1,2,10,1,1,8,5.33,4.0,4.33,4.33,3.33,4.26,False
+Fernando,Martínez,fernando.martínez@ejemplo.com,23,1,7,10,3,3,1,7,6,4,8,1,9,10,5,3,6.0,2.33,5.67,6.0,6.0,5.2,True
+Marta,Díaz,marta.díaz@ejemplo.com,25,1,9,2,7,5,10,10,8,3,9,2,1,3,4,9,4.0,7.33,7.0,4.0,5.33,5.53,True
+Javier,López,javier.lópez@ejemplo.com,25,2,6,8,8,4,2,5,5,0,1,6,10,5,0,6,5.33,4.67,3.33,5.67,3.67,4.53,False
+José,Vargas,josé.vargas@ejemplo.com,25,0,9,6,0,0,8,6,8,7,10,8,3,5,1,5,5.0,2.67,7.0,7.0,3.67,5.07,True
+Carlos,Silva,carlos.silva@ejemplo.com,20,5,10,1,8,1,6,8,7,2,2,10,4,3,2,7,5.33,5.0,5.67,5.33,4.0,5.07,True
+Pablo,García,pablo.garcía@ejemplo.com,19,4,7,5,0,7,4,6,0,7,9,0,5,3,5,8,5.33,3.67,4.33,4.67,5.33,4.67,False
+Isabel,Moreno,isabel.moreno@ejemplo.com,20,0,2,7,9,10,9,2,2,5,2,0,6,5,8,9,3.0,9.33,3.0,2.67,7.33,5.07,True
+María,Martínez,maría.martínez@ejemplo.com,25,2,8,7,6,4,3,9,6,2,3,1,4,0,7,2,5.67,4.33,5.67,2.67,3.0,4.27,False
+Laura,Martínez,laura.martínez@ejemplo.com,19,7,10,1,6,5,3,4,7,8,10,10,6,5,10,7,6.0,4.67,6.33,8.67,7.33,6.6,True
+Carlos,Jiménez,carlos.jiménez@ejemplo.com,24,0,0,7,2,2,7,0,3,8,0,0,8,5,5,0,2.33,3.67,3.67,2.67,3.33,3.13,False
+Sergio,Silva,sergio.silva@ejemplo.com,20,4,0,1,9,0,2,8,10,5,5,1,0,8,7,8,1.67,3.67,7.67,2.0,7.67,4.54,False
+Laura,Moreno,laura.moreno@ejemplo.com,23,5,2,2,7,5,1,3,5,0,5,0,8,1,6,6,3.0,4.33,2.67,4.33,4.33,3.73,False
