@@ -1,0 +1,146 @@
+[
+  {
+    "texto": "Fernando Alonso ha hecho una carrera increible, que pilotazo",
+    "polaridad": "positive",
+    "score": 0.5584,
+    "emociones": {
+      "sorpresa": 0.0828,
+      "alegria": 0.9073
+    },
+    "intensidad": 0.5584,
+    "ironia": false
+  },
+  {
+    "texto": "Carlos Sainz ha ganado el Gran Premio, estoy muy contento",
+    "polaridad": "positive",
+    "score": 0.9691,
+    "emociones": {
+      "alegria": 0.9968
+    },
+    "intensidad": 0.9691,
+    "ironia": false
+  },
+  {
+    "texto": "Que salida tan brillante de Alonso, ha adelantado a tres coches",
+    "polaridad": "positive",
+    "score": 0.8593,
+    "emociones": {
+      "sorpresa": 0.0442,
+      "otros": 0.2408,
+      "alegria": 0.7107
+    },
+    "intensidad": 0.8593,
+    "ironia": false
+  },
+  {
+    "texto": "Que desastre de estrategia del equipo, han arruinado la carrera de Sainz",
+    "polaridad": "negative",
+    "score": -0.8681,
+    "emociones": {
+      "tristeza": 0.0154,
+      "ira": 0.9043,
+      "asco": 0.0697
+    },
+    "intensidad": 0.8681,
+    "ironia": false
+  },
+  {
+    "texto": "Alonso ha abandonado por un fallo mecanico, estoy furioso",
+    "polaridad": "negative",
+    "score": -0.9853,
+    "emociones": {
+      "sorpresa": 0.7875,
+      "tristeza": 0.0104,
+      "miedo": 0.1249,
+      "alegria": 0.0334,
+      "ira": 0.4099,
+      "asco": 0.0202
+    },
+    "intensidad": 0.9853,
+    "ironia": false
+  },
+  {
+    "texto": "No me gusta nada como ha pilotado hoy, ha sido un desastre",
+    "polaridad": "negative",
+    "score": -0.7443,
+    "emociones": {
+      "sorpresa": 0.0258,
+      "tristeza": 0.1243,
+      "otros": 0.7474,
+      "alegria": 0.0738,
+      "ira": 0.0104
+    },
+    "intensidad": 0.7443,
+    "ironia": false
+  },
+  {
+    "texto": "Si, claro... 'fantastica' estrategia del muro, como siempre...",
+    "polaridad": "mixed",
+    "score": -0.1509,
+    "emociones": {
+      "otros": 0.9399,
+      "ira": 0.0361
+    },
+    "intensidad": 0.1509,
+    "ironia": true
+  },
+  {
+    "texto": "Genial, otro abandono por fiabilidad... que sorpresa",
+    "polaridad": "mixed",
+    "score": -0.1911,
+    "emociones": {
+      "sorpresa": 0.9296,
+      "otros": 0.0198,
+      "alegria": 0.4238
+    },
+    "intensidad": 0.8311,
+    "ironia": false
+  },
+  {
+    "texto": "La proxima carrera del campeonato es en Monza el domingo",
+    "polaridad": "neutral",
+    "score": 0.0187,
+    "emociones": {
+      "otros": 0.9837
+    },
+    "intensidad": 0.0187,
+    "ironia": false
+  },
+  {
+    "texto": "Alonso ha hecho una gran clasificacion pero la carrera ha sido horrible",
+    "polaridad": "negative",
+    "score": -0.9107,
+    "emociones": {
+      "tristeza": 0.3418,
+      "otros": 0.2181,
+      "alegria": 0.0136,
+      "ira": 0.3439,
+      "asco": 0.0734
+    },
+    "intensidad": 0.9107,
+    "ironia": false
+  },
+  {
+    "texto": "Estoy super emocionado con el fichaje de Alonso por Aston Martin",
+    "polaridad": "positive",
+    "score": 0.9377,
+    "emociones": {
+      "sorpresa": 0.0147,
+      "alegria": 0.9761
+    },
+    "intensidad": 0.9377,
+    "ironia": false
+  },
+  {
+    "texto": "Me gusto un poco la carrera, fue algo aburrida en general",
+    "polaridad": "negative",
+    "score": -0.2968,
+    "emociones": {
+      "tristeza": 0.0179,
+      "otros": 0.9648,
+      "alegria": 0.0138
+    },
+    "intensidad": 0.2968,
+    "ironia": false
+  }
+]

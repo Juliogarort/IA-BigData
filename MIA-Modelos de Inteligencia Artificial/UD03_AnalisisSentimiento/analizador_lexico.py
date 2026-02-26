@@ -233,7 +233,7 @@ class AnalizadorLexico:
         if ironia:
             score_total = -score_total
             explicaciones.append(
-                f"⚡ Ironía detectada: se invierte la polaridad (de {score_total * -1:.2f} a {score_total:.2f})"
+                f"Ironia detectada: se invierte la polaridad (de {score_total * -1:.2f} a {score_total:.2f})"
             )
 
         # 5. Normalizar score a rango [-1, 1]
@@ -399,7 +399,7 @@ class AnalizadorLexico:
             if char in EMOJI_SENTIMIENTO:
                 score = EMOJI_SENTIMIENTO[char]
                 score_total += score
-                explicaciones.append(f"Emoji '{char}' → score: {score:+.2f}")
+                explicaciones.append(f"Emoji detectado (U+{ord(char):04X}) -> score: {score:+.2f}")
             elif EMOJI_DISPONIBLE and emoji.is_emoji(char):
                 # Emoji no catalogado, neutro
                 pass
@@ -423,7 +423,7 @@ class AnalizadorLexico:
             if frase in texto_lower:
                 ironia = True
                 explicaciones.append(
-                    f"🔍 Patrón irónico detectado: '{frase}'"
+                    f"Patron ironico detectado: '{frase}'"
                 )
                 break
 
@@ -434,8 +434,8 @@ class AnalizadorLexico:
             if p_lower in LEXICO_POSITIVO:
                 ironia = True
                 explicaciones.append(
-                    f"🔍 Palabra positiva entre comillas: '\"{p_lower}\"' "
-                    f"(posible uso irónico)"
+                    f"Palabra positiva entre comillas: '\"{p_lower}\"' "
+                    f"(posible uso ironico)"
                 )
 
         # 3. Contradicción emojis negativos + texto positivo
@@ -447,7 +447,7 @@ class AnalizadorLexico:
         if emojis_negativos and palabras_positivas:
             ironia = True
             explicaciones.append(
-                f"🔍 Contradicción: palabras positivas ({', '.join(palabras_positivas[:3])}) "
+                f"Contradiccion: palabras positivas ({', '.join(palabras_positivas[:3])}) "
                 f"con emojis negativos ({''.join(emojis_negativos[:3])})"
             )
 
@@ -458,8 +458,8 @@ class AnalizadorLexico:
             if positivas_inicio and any(f in texto_lower for f in ["claro", "sí", "si"]):
                 ironia = True
                 explicaciones.append(
-                    "🔍 Puntos suspensivos con afirmación y palabras positivas "
-                    "(posible ironía)"
+                    "Puntos suspensivos con afirmacion y palabras positivas "
+                    "(posible ironia)"
                 )
 
         return ironia, explicaciones
@@ -494,7 +494,7 @@ if __name__ == "__main__":
     textos_prueba = [
         "Me encanta este producto, es maravilloso",
         "No me gusta nada, es horrible",
-        "Sí, claro... 'excelente' servicio 😒",
+        "Si, claro... 'excelente' servicio...",
         "Me gustó un poco la película",
         "Estoy muy contento con el resultado!!!",
     ]

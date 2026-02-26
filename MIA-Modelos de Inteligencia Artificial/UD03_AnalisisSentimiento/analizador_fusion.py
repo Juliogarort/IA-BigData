@@ -33,23 +33,16 @@ class AnalizadorFusion:
         self.peso_lexico = peso_lexico
         self.peso_modelo = peso_modelo
 
-        print("\n" + "=" * 60)
-        print("INICIALIZANDO SISTEMA DE ANÁLISIS DE SENTIMIENTO")
-        print("=" * 60)
-        print(f"  Pesos: Léxico={peso_lexico:.0%} | Modelo={peso_modelo:.0%}")
-        print()
+        print("\nInicializando sistema...")
+        print(f"  Pesos: lexico={peso_lexico:.0%} | modelo={peso_modelo:.0%}")
 
-        print("  [1/2] Inicializando analizador léxico...")
+        print("  Cargando analizador lexico...")
         self.lexico = AnalizadorLexico()
-        print("    ✓ Analizador léxico listo\n")
 
-        print("  [2/2] Inicializando analizador de modelos...")
+        print("  Cargando modelos de IA...")
         self.modelo = AnalizadorModelo()
-        print()
 
-        print("=" * 60)
-        print("✓ SISTEMA LISTO PARA ANALIZAR")
-        print("=" * 60)
+        print("  Sistema listo\n")
 
     def analizar(self, texto):
         """
@@ -101,15 +94,15 @@ class AnalizadorFusion:
 
         # --- Combinar explicaciones ---
         explicaciones = []
-        explicaciones.append("📝 Análisis Léxico:")
+        explicaciones.append("[LEXICO] Análisis Léxico:")
         for exp in resultado_lexico["explicaciones"]:
-            explicaciones.append(f"  • {exp}")
-        explicaciones.append("🤖 Análisis Modelo:")
+            explicaciones.append(f"  - {exp}")
+        explicaciones.append("[MODELO] Análisis Modelo:")
         for exp in resultado_modelo["explicaciones"]:
-            explicaciones.append(f"  • {exp}")
+            explicaciones.append(f"  - {exp}")
         explicaciones.append(
-            f"⚖️ Fusión: Léxico({peso_l:.0%}) × {score_lexico:+.4f} + "
-            f"Modelo({peso_m:.0%}) × {score_modelo:+.4f} = {score_fusionado:+.4f}"
+            f"[FUSION] Léxico({peso_l:.0%}) x {score_lexico:+.4f} + "
+            f"Modelo({peso_m:.0%}) x {score_modelo:+.4f} = {score_fusionado:+.4f}"
         )
 
         # --- Construir JSON final ---

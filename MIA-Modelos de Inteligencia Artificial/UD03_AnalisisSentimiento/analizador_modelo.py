@@ -34,7 +34,6 @@ class AnalizadorModelo:
         self.analizador_sentimiento = create_analyzer(task="sentiment", lang="es")
         print("    Cargando modelo de emociones...")
         self.analizador_emociones = create_analyzer(task="emotion", lang="es")
-        print("    ✓ Modelos cargados correctamente")
 
     def analizar(self, texto):
         """
@@ -63,7 +62,7 @@ class AnalizadorModelo:
         score = probas_sent.get("POS", 0) - probas_sent.get("NEG", 0)
 
         explicaciones.append(
-            f"🤖 Modelo de sentimiento: {polaridad} "
+            f"[MODELO] Sentimiento: {polaridad} "
             f"(POS={probas_sent.get('POS', 0):.3f}, "
             f"NEG={probas_sent.get('NEG', 0):.3f}, "
             f"NEU={probas_sent.get('NEU', 0):.3f})"
@@ -93,7 +92,7 @@ class AnalizadorModelo:
         # Emoción dominante
         emocion_dominante = mapa_emociones.get(etiqueta_emo, etiqueta_emo)
         explicaciones.append(
-            f"🤖 Emoción dominante: {emocion_dominante} "
+            f"[MODELO] Emocion dominante: {emocion_dominante} "
             f"({probas_emo.get(etiqueta_emo, 0):.3f})"
         )
 
@@ -139,7 +138,7 @@ if __name__ == "__main__":
     textos_prueba = [
         "Me encanta este producto, es maravilloso",
         "No me gusta nada, es horrible",
-        "Sí, claro... 'excelente' servicio 😒",
+        "Si, claro... 'excelente' servicio...",
         "Me gustó un poco la película",
         "Estoy muy contento con el resultado!!!",
     ]
