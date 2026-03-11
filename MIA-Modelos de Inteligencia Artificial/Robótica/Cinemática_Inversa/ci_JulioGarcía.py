@@ -1,23 +1,10 @@
-# Implementar un Script en Python que calcule los ángulos de articulación de un 
-# # brazo robótico para alcanzar una posición específica.
-
-
-# Para comprobar su funcionalidad, generar 10 posiciones aleatorias e indicar en formato tabla (matriz) 
-# los ángulos de cada articulación del # brazo robótico.
-
 import numpy as np
 import matplotlib.pyplot as plt
 
-# ==============================
-# LONGITUDES DEL BRAZO
-# ==============================
 
 L1 = 2
 L2 = 1.5
 
-# ==============================
-# CINEMÁTICA INVERSA
-# ==============================
 
 def cinematica_inversa(x, y):
     """
@@ -37,9 +24,7 @@ def cinematica_inversa(x, y):
 
     return theta1, theta2
 
-# ==============================
-# FUNCIÓN PARA DIBUJAR EL BRAZO
-# ==============================
+
 
 def dibujar_brazo(theta1, theta2, x_obj, y_obj, numero):
 
@@ -70,9 +55,7 @@ def dibujar_brazo(theta1, theta2, x_obj, y_obj, numero):
     plt.grid()
     plt.show()
 
-# ==============================
-# GENERAR 10 POSICIONES
-# ==============================
+
 
 print("\nTabla de resultados:\n")
 print("X\tY\tTheta1(rad)\tTheta2(rad)")
