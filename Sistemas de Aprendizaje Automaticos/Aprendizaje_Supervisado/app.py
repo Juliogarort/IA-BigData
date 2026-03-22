@@ -11,8 +11,8 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
 
 with open('model.pkl', 'rb') as f:
-    data    = pickle.load(f)
-    model   = data['model']    # pipeline (StandardScaler + LogisticRegression)
+    data     = pickle.load(f)
+    model    = data['model']
     accuracy = data['accuracy']
 
 print(f"Modelo cargado. Precisión: {accuracy * 100:.2f}%")
@@ -26,8 +26,8 @@ def index():
 @app.route('/predict', methods=['POST'])
 def predict():
     """
-    Recibe un array de 64 floats (8x8, escala 0-16) preprocesado en el cliente
-    y devuelve la predicción. El pipeline aplica StandardScaler internamente.
+    Recibe un array de 64 floats (píxeles 8x8 en escala 0-16)
+    ya preprocesados en el cliente y devuelve la predicción.
     """
     try:
         payload = request.get_json()
