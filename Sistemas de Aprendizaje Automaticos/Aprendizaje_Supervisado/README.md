@@ -1,40 +1,27 @@
-# 🔢 Clasificador de Dígitos — Machine Learning
+# Digit Classifier
 
-Aplicación web para clasificar dígitos escritos a mano (0-9) utilizando Machine Learning.
-
-## Autor
-
-**Julio García**
+**Autor:** Julio García  
+**Módulo:** Big Data & Machine Learning — ILERNA Sevilla
 
 ---
 
 ## Descripción del Proyecto
 
-Este proyecto implementa un clasificador de dígitos manuscritos utilizando el algoritmo de **Regresión Logística** de scikit-learn. El modelo se entrena con el dataset **digits** integrado en scikit-learn, que contiene **1.797 imágenes** de dígitos de **8×8 píxeles** en escala de grises.
+<p align="center">
+  <img src="assets/interfaz.png" alt="Interfaz del proyecto">
+</p>
 
-La aplicación ofrece una **interfaz web interactiva** donde el usuario puede dibujar un número en un canvas con el ratón o pantalla táctil, y obtener la predicción del modelo en tiempo real junto con el porcentaje de confianza.
+Aplicación web que clasifica dígitos escritos a mano (0–9) en tiempo real usando Machine Learning. El usuario dibuja un número en un canvas HTML y el sistema lo reconoce al instante, mostrando el dígito predicho y el porcentaje de confianza del modelo.
+
+El proyecto sigue una arquitectura cliente-servidor: el frontend captura el dibujo, lo preprocesa en JavaScript para igualar el formato del dataset de entrenamiento, y lo envía a una API REST construida con Flask que devuelve la predicción.
 
 ### ¿Cómo funciona internamente?
 
-1. El usuario dibuja un número en un canvas de 280×280 píxeles (trazos blancos sobre fondo negro)
-2. Al pulsar "Predecir", la imagen se envía al servidor como datos en formato base64
-3. El servidor redimensiona la imagen a 8×8 píxeles, invierte los colores y escala los valores a 0-16 (formato del dataset)
-4. El modelo de Regresión Logística clasifica la imagen y devuelve la predicción junto con las probabilidades de cada clase
-5. El resultado aparece en pantalla con el número detectado y el porcentaje de confianza
-
----
-
-## Tecnologías Utilizadas
-
-| Tecnología | Versión | Uso |
-|---|---|---|
-| **Python** | 3.11 | Lenguaje principal del backend |
-| **Flask** | 3.1.0 | Servidor web y API REST |
-| **scikit-learn** | 1.6.1 | Entrenamiento y predicción del modelo de ML |
-| **NumPy** | 2.2.3 | Manejo de arrays numéricos |
-| **Pillow** | 11.1.0 | Procesamiento y redimensionado de imágenes |
-| **Docker** | — | Contenerización de la aplicación |
-| **HTML/CSS/JS** | — | Interfaz web con canvas interactivo |
+1. El usuario dibuja un número en el canvas (256×256 px, fondo negro puro)
+2. JavaScript preprocesa el dibujo: bounding box → centrado → reducción 8×8 → normalización max→16
+3. El array de 64 valores se envía al endpoint `POST /predict` de la API Flask
+4. Flask pasa los datos al modelo, que devuelve la predicción y la confianza
+5. El resultado se muestra en pantalla con el dígito y una barra de confianza animada
 
 ---
 
@@ -42,145 +29,165 @@ La aplicación ofrece una **interfaz web interactiva** donde el usuario puede di
 
 ```
 digit-classifier/
-├── train.py            # Script de entrenamiento del modelo
-├── app.py              # Servidor Flask (API + web)
-├── model.pkl           # Modelo entrenado (generado por train.py)
-├── requirements.txt    # Dependencias de Python
-├── Dockerfile          # Configuración para contenerización con Docker
-├── README.md           # Documentación del proyecto
-├── static/
-│   └── style.css       # Estilos CSS de la interfaz web
-└── templates/
-    └── index.html      # Página web con canvas para dibujar
+├── app.py                  # Servidor Flask (API + web)
+├── train.py                # Script de entrenamiento del modelo
+├── model.pkl               # Modelo entrenado (generado durante el build)
+├── requirements.txt        # Dependencias Python
+├── Dockerfile              # Contenerización
+├── README.md               # Este fichero
+├── assets/                 # Imágenes para la documentación
+├── templates/
+│   └── index.html          # Estructura HTML de la interfaz
+└── static/
+    ├── style.css           # Estilos CSS
+    └── app.js              # Lógica JS: canvas, preprocesado y API
 ```
-
-### Descripción detallada de cada archivo
-
-#### `train.py` — Script de entrenamiento
-- Carga el dataset **digits** de scikit-learn (1.797 imágenes de 8×8 píxeles)
-- Divide los datos en **80% entrenamiento** y **20% test** con split estratificado (`stratify=y`) para mantener la proporción de cada clase
-- Entrena un modelo de **Regresión Logística** con el solver `lbfgs` y un máximo de 10.000 iteraciones
-- Evalúa el modelo mostrando la precisión y el informe de clasificación por consola
-- Guarda el modelo entrenado y su precisión en el archivo `model.pkl` usando `pickle`
-
-#### `app.py` — Servidor Flask
-- Al iniciarse, carga el modelo desde `model.pkl`
-- **Ruta `/`**: Sirve la página principal (`index.html`) pasándole la precisión del modelo
-- **Ruta `/predict` (POST)**: Recibe una imagen en base64 del canvas, la procesa (convierte a escala de grises, redimensiona a 8×8, invierte y escala los valores) y devuelve la predicción en formato JSON con el número detectado, la confianza y las probabilidades de cada clase
-- Se ejecuta en el puerto **5000**
-
-#### `model.pkl` — Modelo entrenado
-- Archivo binario generado por `train.py` que contiene un diccionario con el modelo de Regresión Logística ya entrenado y su precisión
-- Se carga al iniciar `app.py` para poder hacer predicciones sin necesidad de reentrenar
-
-#### `templates/index.html` — Interfaz web
-- Página HTML con un **canvas** de 280×280 píxeles para dibujar dígitos
-- Soporta dibujo con **ratón** y con **pantalla táctil**
-- Botón "Predecir" que envía la imagen al servidor mediante `fetch` (API REST)
-- Botón "Borrar" que limpia el canvas
-- Muestra el resultado con el número predicho y el porcentaje de confianza
-
-#### `static/style.css` — Estilos CSS
-- Diseño moderno con **glassmorphism** (fondo translúcido con desenfoque)
-- Gradiente de fondo oscuro y colores violeta/azul
-- Diseño **responsive** adaptado a distintos tamaños de pantalla
-- Animaciones y transiciones suaves en botones
-
-#### `requirements.txt` — Dependencias
-- Lista las librerías de Python necesarias con sus versiones exactas
-
-#### `Dockerfile` — Contenerización
-- Usa la imagen base `python:3.11-slim` (ligera)
-- Instala las dependencias, entrena el modelo durante el build y ejecuta el servidor Flask
 
 ---
 
-## Datos del Modelo
+## Descripción de cada fichero
+
+### `train.py` — Entrenamiento del modelo
+
+Carga el dataset `digits` de scikit-learn (1.797 imágenes de 8×8 píxeles, valores 0–16). Divide los datos en 80% entrenamiento y 20% test con **split estratificado** (`stratify=y`) para garantizar que cada clase esté igualmente representada en ambos conjuntos. Entrena un modelo de **Regresión Logística** y lo guarda junto con su precisión en `model.pkl` usando `pickle`.
+
+> **Nota:** no se usa `StandardScaler` porque el preprocesado del canvas ya normaliza los datos al mismo rango (0–16, max→16) que el dataset. Añadir el scaler empeoraba las predicciones al distorsionar la distribución espacial de los píxeles.
+
+### `app.py` — Servidor Flask
+
+Al iniciarse carga el modelo desde `model.pkl`. Expone dos rutas:
+
+- `GET /` — sirve la página HTML pasándole la precisión del modelo para mostrarla en la interfaz
+- `POST /predict` — recibe un array de 64 floats preprocesado desde el cliente, ejecuta `model.predict()` y devuelve la predicción y la confianza en JSON
+
+### `templates/index.html` — Estructura HTML
+
+Contiene únicamente la estructura semántica: cabecera con el badge de precisión, el canvas de dibujo, los botones de predecir y limpiar, el panel de resultado y el footer. No tiene CSS ni JS inline; enlaza a los ficheros de `static/`.
+
+### `static/style.css` — Estilos
+
+Define las variables de diseño en `:root` (colores, fuentes, radios). Estiliza cada componente de la interfaz e incluye las animaciones: `fadeUp` al cargar la página, `digitIn` al mostrar el resultado, `blink` para los puntos de carga y `pulse` para el indicador de estado activo.
+
+### `static/app.js` — Lógica del cliente
+
+Inicializa el canvas con fondo negro puro e implementa los eventos de dibujo para ratón y táctil. Contiene la función `preprocesar()`, que es el núcleo del sistema: extrae el bounding box del trazo, lo centra en un canvas cuadrado temporal, reduce a 8×8 con interpolación bilineal y normaliza los valores (max→16). La función `predecir()` llama a la API con esos datos y actualiza la interfaz con el resultado.
+
+---
+
+## Modelo de Machine Learning
 
 | Parámetro | Valor |
 |---|---|
-| **Dataset** | digits de scikit-learn |
-| **Muestras** | 1.797 imágenes (8×8 píxeles, escala de grises) |
-| **Clases** | 10 (dígitos del 0 al 9) |
-| **Algoritmo** | Regresión Logística (`LogisticRegression`) |
-| **Solver** | `lbfgs` |
-| **Iteraciones máximas** | 10.000 |
-| **Split** | 80% entrenamiento / 20% test (estratificado) |
-| **Precisión esperada** | ~97% |
+| Dataset | digits de scikit-learn |
+| Muestras | 1.797 imágenes de 8×8 píxeles |
+| Clases | 10 (dígitos del 0 al 9) |
+| Algoritmo | Regresión Logística (`LogisticRegression`) |
+| Solver | `lbfgs` |
+| Iteraciones máx. | 10.000 |
+| Split | 80% train / 20% test, estratificado |
+| Precisión | ~96–97% sobre el conjunto de test |
 
 ---
 
-## Lanzar el Proyecto desde Cero
+## Problemas encontrados durante el desarrollo
 
-### Opción 1 — Sin Docker (ejecución local)
+Esta sección recoge los bugs más importantes que aparecieron y cómo se resolvieron.
 
-#### Requisitos previos
-- Tener **Python 3.11** instalado
-- Tener **pip** disponible
+### Problema 1 — El CSS no cargaba
 
-#### Paso 1: Instalar las dependencias
+Al principio el CSS estaba enlazado con una ruta relativa que Flask no encontraba. Flask sirve los estáticos desde `static/` y hay que usar `url_for` para generar la ruta correcta. Un error básico pero que costó un rato localizar.
+
+```html
+<!-- MAL -->
+<link rel="stylesheet" href="../templates/style.css">
+
+<!-- BIEN -->
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+```
+
+### Problema 2 — Siempre predecía el número 4
+
+Este fue el bug más gordo del proyecto. Da igual lo que dibujara: un 0, un 7, un 1... siempre salía un 4. Después de debugear con datos reales se encontraron tres causas combinadas:
+
+- **Fondo del canvas incorrecto:** el canvas tenía fondo `#1A1A18` (valor 26 en RGB) en vez de negro puro `#000000`. Eso añadía un valor de ~1.6 a todos los píxeles de fondo en escala 0-16, y el modelo interpretaba ese ruido de fondo como si fuera el dígito 4.
+
+- **Reducción directa sin recortar el trazo:** al reducir el canvas de 256×256 a 8×8 directamente, si el usuario dibujaba en el centro, el trazo ocupaba solo 1-2 píxeles en el resultado final. El modelo veía casi todo a cero, y el 4 era el dígito del dataset más parecido a esa distribución casi vacía.
+
+- **La confianza llegaba como string:** la API devolvía la confianza como `"97.3%"` (string con el símbolo incluido). El JavaScript hacía `parseFloat()` sobre ese valor y fallaba silenciosamente, rompiendo la barra de confianza.
+
+Las soluciones fueron: fondo `#000000` + umbral de ruido (píxeles < 30 → 0), preprocesado con bounding box para que el trazo ocupe siempre todo el espacio 8×8, y devolver la confianza como número float desde la API.
+
+### Problema 3 — El StandardScaler empeoró las predicciones
+
+Se añadió `StandardScaler` pensando que mejoraría la robustez del modelo, pero el resultado fue el contrario: las predicciones empeoraron bastante. Al analizarlo con datos reales se vio que el scaler aprende la media y desviación de cada píxel del dataset, y cuando los datos del canvas pasan por esa transformación, quedan desplazados fuera del espacio donde el modelo sabe clasificar. Sin scaler, con la normalización max→16 ya implementada en el cliente, los resultados mejoraron significativamente.
+
+---
+
+## Build & Execution
+
+### Con Docker (recomendado)
+
+El entrenamiento del modelo se ejecuta automáticamente durante el `docker build`.
+
+```bash
+# 1. Construir la imagen
+docker build -t digit-classifier .
+
+# 2. Ejecutar el contenedor
+docker run -p 5000:5000 digit-classifier
+
+# 3. Abrir en el navegador
+http://localhost:5000
+```
+
+### Con Docker Compose
+
+Crear un fichero `docker-compose.yml` en la raíz:
+
+```yaml
+services:
+  digit-classifier:
+    build: .
+    ports:
+      - "5000:5000"
+```
+
+```bash
+docker compose up --build
+```
+
+### Sin Docker (local)
 
 ```bash
 pip install -r requirements.txt
-```
-
-#### Paso 2: Entrenar el modelo
-
-```bash
 python train.py
-```
-
-Esto generará el archivo `model.pkl` con el modelo entrenado. Por consola verás la precisión y el informe de clasificación.
-
-#### Paso 3: Lanzar el servidor
-
-```bash
 python app.py
 ```
 
-#### Paso 4: Abrir la aplicación
-
-Abrir el navegador en: **[http://localhost:5000](http://localhost:5000)**
-
----
-
-### Opción 2 — Con Docker
-
-#### Requisitos previos
-- Tener **Docker** instalado y en ejecución
-
-#### Paso 1: Construir la imagen Docker
-
-```bash
-docker build -t digit-classifier .
-```
-
-> Durante el build se ejecuta automáticamente `train.py`, que entrena el modelo y genera `model.pkl` dentro de la imagen.
-
-#### Paso 2: Ejecutar el contenedor
-
-```bash
-docker run -p 5000:5000 digit-classifier
-```
-
-#### Paso 3: Abrir la aplicación
-
-Abrir el navegador en: **[http://localhost:5000](http://localhost:5000)**
+Abrir en el navegador: `http://localhost:5000`
 
 ---
 
 ## Uso de la Aplicación
 
-1. **Dibuja** un número (0-9) con el ratón o el dedo en el canvas negro
-2. Pulsa el botón **"Predecir"** para enviar la imagen al modelo
-3. Visualiza el **resultado** con el número detectado y el porcentaje de confianza
-4. Pulsa **"Borrar"** para limpiar el canvas y probar con otro número
+<p align="center">
+  <img src="assets/prediccion.png" alt="Ejemplo de predicción">
+</p>
 
----
+1. Dibuja un número (0–9) con el ratón o el dedo en el canvas negro
+2. Pulsa **Predecir** para enviar el dibujo al modelo
+3. Observa el resultado: dígito predicho y porcentaje de confianza
+4. Pulsa **Limpiar** para borrar el canvas y probar con otro número
 
-## Información Adicional
 
-- El modelo usa **semilla fija** (`random_state=42`) para que los resultados sean reproducibles
-- El split de datos es **estratificado**, lo que garantiza que cada clase (0-9) tenga la misma proporción en entrenamiento y test
-- El preprocesamiento de la imagen del canvas incluye: conversión a escala de grises, redimensionado a 8×8 con interpolación LANCZOS, inversión de colores y escalado de 0-255 a 0-16
-- La API devuelve las probabilidades de todas las clases, lo que permite evaluar la confianza del modelo en cada predicción
+## Uso de Inteligencia Artificial
+ 
+Durante el desarrollo se ha utilizado Claude como apoyo en varias fases del proyecto.
+ 
+Debido a varios errores que cometi durante el desarrollo, no sabia como solucionarlos, por lo que use la IA para intentar solucionarlos, principalmente en los siguientes puntos:
+ 
+- **Interfaz gráfica:** el diseño inicial era bastante básico y quería algo más currado, por lo que conseguí mejorar el diseño generado con la IA.
+ 
+- **Bug de predicción:** el modelo siempre devolvía el dígito 4 independientemente de lo que se dibujara. Le pregunté a algún compañero y a ellos también les pasaba, no entendia muy bien porque pasaba esto. Despues de preguntarle a la IA me dijo que podía ser por los colores, ya que antes usaba otros pero me dijo que usando un fondo totalmente negro y un 'lápiz' blanco podía mejorar la precisión. Tambien me dijo que el trazo no se recortaba correctamente antes de reducirlo a 8×8 por lo que no se enviaba bien la imagen al modelo.
+ 
+- **Preprocesado de imagen y JavaScript:** la función que transforma el dibujo del canvas en el array de 64 valores que espera el modelo (bounding box, centrado, reducción a 8×8 y normalización) la desarrolló la IA, ya que requería bastante lógica de manipulación de píxeles en JS. Ya que anteriormente usaba el StandardScaler pero despues de bastantes intentos, pruebas y preguntas a la IA entendía que este metodo standar parecía empeorar las predicciones.  

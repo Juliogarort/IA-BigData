@@ -1,9 +1,3 @@
-"""
-app.py - Servidor Flask para el clasificador de dígitos.
-Sirve la web HTML y expone la API de predicción.
-Autor: Julio García
-"""
-
 import pickle
 import numpy as np
 from flask import Flask, render_template, request, jsonify
@@ -25,10 +19,7 @@ def index():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    """
-    Recibe un array de 64 floats (píxeles 8x8 en escala 0-16)
-    ya preprocesados en el cliente y devuelve la predicción.
-    """
+
     try:
         payload = request.get_json()
         pixels  = payload['pixels']
