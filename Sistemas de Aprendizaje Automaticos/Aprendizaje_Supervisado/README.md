@@ -1,7 +1,5 @@
 # Digit Classifier
 
-**Autor:** Julio García  
-**Módulo:** Big Data & Machine Learning — ILERNA Sevilla
 
 ---
 
@@ -62,15 +60,15 @@ Al iniciarse carga el modelo desde `model.pkl`. Expone dos rutas:
 
 ### `templates/index.html` — Estructura HTML
 
-Contiene únicamente la estructura semántica: cabecera con el badge de precisión, el canvas de dibujo, los botones de predecir y limpiar, el panel de resultado y el footer. No tiene CSS ni JS inline; enlaza a los ficheros de `static/`.
+Contiene la estructura HTML de la interfaz, con el canvas de dibujo, los botones de predecir y limpiar, el panel de resultado y el footer.
 
 ### `static/style.css` — Estilos
 
-Define las variables de diseño en `:root` (colores, fuentes, radios). Estiliza cada componente de la interfaz e incluye las animaciones: `fadeUp` al cargar la página, `digitIn` al mostrar el resultado, `blink` para los puntos de carga y `pulse` para el indicador de estado activo.
+Aplicamos estilo a la interfaz de index.html para mejorar el diseño. 
 
 ### `static/app.js` — Lógica del cliente
 
-Inicializa el canvas con fondo negro puro e implementa los eventos de dibujo para ratón y táctil. Contiene la función `preprocesar()`, que es el núcleo del sistema: extrae el bounding box del trazo, lo centra en un canvas cuadrado temporal, reduce a 8×8 con interpolación bilineal y normaliza los valores (max→16). La función `predecir()` llama a la API con esos datos y actualiza la interfaz con el resultado.
+Contiene dos funciones principales: `preprocesar()`, que transforma el dibujo del canvas en el array de 64 valores que espera el modelo (bounding box, centrado, reducción a 8×8 y normalización), y `predecir()`, que envía esos datos a la API de Flask y actualiza la interfaz con el resultado. 
 
 ---
 
@@ -81,11 +79,10 @@ Inicializa el canvas con fondo negro puro e implementa los eventos de dibujo par
 | Dataset | digits de scikit-learn |
 | Muestras | 1.797 imágenes de 8×8 píxeles |
 | Clases | 10 (dígitos del 0 al 9) |
-| Algoritmo | Regresión Logística (`LogisticRegression`) |
-| Solver | `lbfgs` |
+| Algoritmo | Regresión Logística  |
 | Iteraciones máx. | 10.000 |
-| Split | 80% train / 20% test, estratificado |
-| Precisión | ~96–97% sobre el conjunto de test |
+| Split | 80% train / 20% test |
+| Precisión | 95% – 97% |
 
 ---
 
@@ -123,18 +120,18 @@ Se añadió `StandardScaler` pensando que mejoraría la robustez del modelo, per
 
 ---
 
-## Build & Execution
+## Cómo ejecutar el proyecto
+> ⚠️ Todos los comandos deben ejecutarse desde dentro de la carpeta `Aprendizaje_Supervisado`.
 
 ### Con Docker (recomendado)
 
 El entrenamiento del modelo se ejecuta automáticamente durante el `docker build`.
-
 ```bash
 # 1. Construir la imagen
-docker build -t digit-classifier .
+docker build -t aprendizaje-supervisado .
 
 # 2. Ejecutar el contenedor
-docker run -p 5000:5000 digit-classifier
+docker run -p 5000:5000 aprendizaje-supervisado
 
 # 3. Abrir en el navegador
 http://localhost:5000
