@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "emisor": "GENESIS",
+        "receptor": "TODOS",
+        "mensaje": "Inicio de la cadena",
+        "cantidad": 0,
+        "hash_anterior": "0",
+        "hash": "b7979f5676ed10446c7d6626ebeab89b40c49d985aef09cbd2c0351a5180d54a"
+    },
+    {
+        "id": 1,
+        "emisor": "Alice",
+        "receptor": "Bob",
+        "mensaje": "MENSAJE ALTERADO",
+        "cantidad": 50,
+        "hash_anterior": "b7979f5676ed10446c7d6626ebeab89b40c49d985aef09cbd2c0351a5180d54a",
+        "hash": "62e8b24dddcdc97b496094bfa6743d12b0ba328d85370d76fb82cf116b7584d4"
+    },
+    {
+        "id": 2,
+        "emisor": "Bob",
+        "receptor": "Carol",
+        "mensaje": "Transferencia",
+        "cantidad": 30,
+        "hash_anterior": "62e8b24dddcdc97b496094bfa6743d12b0ba328d85370d76fb82cf116b7584d4",
+        "hash": "e429753d4f43cf851b22cf4bea8f0db116f62a84861590efc34e9c04cec8e315"
+    },
+    {
+        "id": 3,
+        "emisor": "Carol",
+        "receptor": "Dave",
+        "mensaje": "Deuda",
+        "cantidad": 20,
+        "hash_anterior": "e429753d4f43cf851b22cf4bea8f0db116f62a84861590efc34e9c04cec8e315",
+        "hash": "98101508244f790fef0edab198041a34c016347449630b27e5cffeb53bd1e86c"
+    }
+]
