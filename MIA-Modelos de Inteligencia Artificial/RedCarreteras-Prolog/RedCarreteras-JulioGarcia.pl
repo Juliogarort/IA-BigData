@@ -21,7 +21,7 @@ municipio(sanlucar_de_barrameda).
 municipio(sevilla).
 municipio(utrera).
 municipio(velez_malaga).
-
+ 
 
 % --- Área de Sevilla ---
 carretera(sevilla, dos_hermanas,            13).  % A-4
