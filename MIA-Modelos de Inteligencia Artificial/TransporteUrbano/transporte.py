@@ -63,7 +63,7 @@ def mostrar(num, fila, dist_s, tiempo_s, recs):
         print(f"    Alternativas: {', '.join(str(a['A']) for a in alts)}")
 
 def main():
-    print("\n🚌 SISTEMA EXPERTO – TRANSPORTE URBANO\n")
+    print("\n SISTEMA EXPERTO – TRANSPORTE URBANO\n")
     with open(os.path.join(BASE, "transporte_urbano.csv"), encoding="utf-8") as f:
         filas = [{k.strip().lower(): v.strip().lower() for k,v in row.items()}
                  for row in csv.DictReader(f)]
