@@ -7,18 +7,19 @@ from datetime import datetime
 # mensaje el mensaje que se pasa de jugador a jugador (puede estar cambiao o haber cometido algun error), hash_anterior representa la huella
 # digital del mensaje anterior y el hash sería la nueva huella que genera el mensaje actual. 
 class Bloque:
-    def __init__(self, indice, mensaje, hash_anterior=""):
+    def __init__(self, indice, mensaje, hash_anterior="", estado= "OK"):
         self.indice = indice
         self.mensaje = mensaje
         self.hash_anterior = hash_anterior
+        self.estado = estado  
         self.hash = self.calcular_hash()
 
     def calcular_hash(self):
         contenido = str(self.indice) + self.mensaje + self.hash_anterior
         return hashlib.sha256(contenido.encode()).hexdigest()
 
-    def __str__(self):
-        return f"Bloque #{self.indice}\nMensaje: {self.mensaje}\nHash anterior: {self.hash_anterior[:20]}...\nHash propio: {self.hash[:20]}...\n"
+    def __str__(self):  
+        return f"Bloque #{self.indice}\nMensaje: {self.mensaje}\nEstado: {self.estado}\nHash anterior: {self.hash_anterior[:20]}...\nHash propio: {self.hash[:20]}...\n"
 
 # Esta función simularía el error cometido por algun jugador. Como funciona? Pues hay una probabilidad del 30% de que se cometa un error, 
 # si se comete el error, mediante este bucle de forma aleatoria se selecciona una posición y se sustituye alguna letra por otra tambien aleatoriamente
@@ -37,7 +38,7 @@ def crear_cadena(mensaje_inicial, num_personas=6, probabilidad_error=0.3):
 
     for i in range(num_personas):
         mensaje_actual, fue_alterado = distorsionar_mensaje(mensaje_actual, probabilidad_error)
-        bloque = Bloque(i, mensaje_actual, hash_anterior)
+        bloque = Bloque(i+1, mensaje_actual, hash_anterior, "ALTERADO" if fue_alterado else "OK")
         cadena.append(bloque)
         hash_anterior = bloque.hash
         
@@ -59,6 +60,7 @@ def verificar_cadena(cadena):
     for i, bloque in enumerate(cadena):
         if bloque.hash != bloque.calcular_hash():
             print(f"❌ Bloque #{i+1}: hash corrupto")
+            bloque.estado = "CORRUPTO"  
             cadena_valida = False
         else:
             print(f"✅ Bloque #{i+1}: OK — {bloque.mensaje}")
@@ -82,7 +84,8 @@ def modo_trampa(cadena, indice_bloque, nuevo_mensaje):
         bloque = cadena[indice_bloque]
         mensaje_original = bloque.mensaje
         bloque.mensaje = nuevo_mensaje
-        
+        bloque.estado = "CORRUPTO" 
+
         print(f"Bloque #{indice_bloque}:")
         print(f"Antes: {mensaje_original}")
         print(f"Después: {nuevo_mensaje}")

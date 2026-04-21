@@ -1,0 +1,41 @@
+============================================================
+SIMULACIÓN: TELÉFONO ESCACHARRADO CON BLOCKCHAIN
+Generado: 21/04/2026 16:56
+============================================================
+
+Bloque #1
+Mensaje: Fernando Alonso ee la cabra, the GOAT, la bestia, el animal, el padre, el mejor de la historia
+Estado: ALTERADO
+Hash anterior: 00000000000000000000...
+Hash propio: d765dc23b93ec831796d...
+
+Bloque #2
+Mensaje: Firnando Alonso ee la cabra, the GOAT, la bestia, el animal, el padre, el mejor de la historia
+Estado: ALTERADO
+Hash anterior: d765dc23b93ec831796d...
+Hash propio: 6a58e2a21da7bfce503a...
+
+Bloque #3
+Mensaje: Firnando Adonso ee la cabra, the GOAT, la bestia, el animal, el padre, el mejor de la historia
+Estado: ALTERADO
+Hash anterior: 6a58e2a21da7bfce503a...
+Hash propio: 92d45cb4c8617b0ab297...
+
+Bloque #4
+Mensaje: Firnando Adonso ee la cabra, the GOAT, la bestia, el animal, el padre, el mejor de la historia
+Estado: OK
+Hash anterior: 92d45cb4c8617b0ab297...
+Hash propio: 169b3de08c83de555b84...
+
+Bloque #5
+Mensaje: Firnando Adonso ee la cabra, the GOAT, la bestia, el animal, el padre, el mejor de la historia
+Estado: OK
+Hash anterior: 169b3de08c83de555b84...
+Hash propio: 604e6a778a94bca10c63...
+
+Bloque #6
+Mensaje: zirnando Adonso ee la cabra, the GOAT, la bestia, el animal, el padre, el mejor de la historia
+Estado: ALTERADO
+Hash anterior: 604e6a778a94bca10c63...
+Hash propio: e3032ca96f53165a4d76...
+
