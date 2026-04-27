@@ -1,0 +1,2374 @@
+
+==============================
+Incidente 1 - Usuario: maria2
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 2 - Usuario: adrian3
+==============================
+
+Hechos iniciales:
+- (ninguno)
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 3 - Usuario: miguel4
+==============================
+
+Hechos iniciales:
+- ejecucion_binario
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 4 - Usuario: alba5
+==============================
+
+Hechos iniciales:
+- (ninguno)
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 5 - Usuario: ivan6
+==============================
+
+Hechos iniciales:
+- ejecucion_binario
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 6 - Usuario: noelia7
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+- multiples_hosts
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 7 - Usuario: adrian8
+==============================
+
+Hechos iniciales:
+- (ninguno)
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 8 - Usuario: hugo9
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 9 - Usuario: beatriz1
+==============================
+
+Hechos iniciales:
+- (ninguno)
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 10 - Usuario: ines2
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 11 - Usuario: lucia3
+==============================
+
+Hechos iniciales:
+- ejecucion_binario
+- multiples_hosts
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 12 - Usuario: david4
+==============================
+
+Hechos iniciales:
+- (ninguno)
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 13 - Usuario: pablo5
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 14 - Usuario: elena6
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 15 - Usuario: paula7
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+- ejecucion_binario
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 16 - Usuario: laura8
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 17 - Usuario: lucia9
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- ejecucion_binario
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 18 - Usuario: silvia1
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- ejecucion_binario
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 19 - Usuario: ana2
+==============================
+
+Hechos iniciales:
+- pais_inusual
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 20 - Usuario: pablo3
+==============================
+
+Hechos iniciales:
+- (ninguno)
+
+Inferencia Forward:
+- (ninguna inferencia)
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+- No se ha disparado ninguna regla
+
+Recomendación:
+- Sin acción urgente, revisar manualmente
+
+==============================
+Incidente 21 - Usuario: diego4
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- macro_activa
+
+Inferencia Forward:
+- phishing_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 22 - Usuario: marta5
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 23 - Usuario: alba6
+==============================
+
+Hechos iniciales:
+- adjunto_sospechoso
+- macro_activa
+- multiples_hosts
+
+Inferencia Forward:
+- phishing_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 24 - Usuario: beatriz7
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 25 - Usuario: maria8
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- intentos_login_altos
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- compromiso_cuenta_probable
+- acceso_inicial_exitoso
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 26 - Usuario: david9
+==============================
+
+Hechos iniciales:
+- adjunto_sospechoso
+- antivirus_alerta
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 27 - Usuario: adrian1
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- intentos_login_altos
+- macro_activa
+
+Inferencia Forward:
+- phishing_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 28 - Usuario: luis2
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- ejecucion_binario
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 29 - Usuario: elena3
+==============================
+
+Hechos iniciales:
+- adjunto_sospechoso
+- antivirus_alerta
+- intentos_login_altos
+- macro_activa
+
+Inferencia Forward:
+- phishing_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 30 - Usuario: irene4
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+
+Inferencia Forward:
+- phishing_probable
+- movimiento_lateral_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 31 - Usuario: laura5
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- acceso_inicial_exitoso
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 32 - Usuario: irene6
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- intentos_login_altos
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- compromiso_cuenta_probable
+- acceso_inicial_exitoso
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 33 - Usuario: ivan7
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- ejecucion_binario
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 34 - Usuario: raul8
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- multiples_hosts
+
+Inferencia Forward:
+- malware_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 35 - Usuario: jorge9
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- ejecucion_binario
+- intentos_login_altos
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+- compromiso_cuenta_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 36 - Usuario: miguel1
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+- ejecucion_binario
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 37 - Usuario: miguel2
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- ejecucion_binario
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 38 - Usuario: raul3
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- ejecucion_binario
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 39 - Usuario: carlos4
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- ejecucion_binario
+- macro_activa
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 40 - Usuario: laura5
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+- ejecucion_binario
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 41 - Usuario: marta6
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+- ejecucion_binario
+- macro_activa
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 42 - Usuario: laura7
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- ejecucion_binario
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 43 - Usuario: carlos8
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+- ejecucion_binario
+- multiples_hosts
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 44 - Usuario: raul9
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+- ejecucion_binario
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 45 - Usuario: nuria1
+==============================
+
+Hechos iniciales:
+- adjunto_sospechoso
+- ejecucion_binario
+- intentos_login_altos
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- compromiso_cuenta_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 46 - Usuario: sergio2
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- ejecucion_binario
+- intentos_login_altos
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 47 - Usuario: silvia3
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- intentos_login_altos
+- pais_inusual
+
+Inferencia Forward:
+- compromiso_cuenta_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 48 - Usuario: irene4
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- compromiso_cuenta_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 49 - Usuario: alberto5
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+- compromiso_cuenta_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R7: compromiso_cuenta_probable AND exfiltracion_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 50 - Usuario: clara6
+==============================
+
+Hechos iniciales:
+- adjunto_sospechoso
+- antivirus_alerta
+- intentos_login_altos
+- pais_inusual
+
+Inferencia Forward:
+- compromiso_cuenta_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 51 - Usuario: lucia7
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- intentos_login_altos
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 52 - Usuario: adrian8
+==============================
+
+Hechos iniciales:
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+- compromiso_cuenta_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 53 - Usuario: beatriz9
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- descarga_masiva
+- intentos_login_altos
+- pais_inusual
+
+Inferencia Forward:
+- compromiso_cuenta_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R7: compromiso_cuenta_probable AND exfiltracion_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 54 - Usuario: irene1
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- intentos_login_altos
+- pais_inusual
+
+Inferencia Forward:
+- compromiso_cuenta_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 55 - Usuario: victor2
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- descarga_masiva
+
+Inferencia Forward:
+- exfiltracion_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 56 - Usuario: laura3
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- descarga_masiva
+- multiples_hosts
+
+Inferencia Forward:
+- movimiento_lateral_probable
+- exfiltracion_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 57 - Usuario: marta4
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- pais_inusual
+
+Inferencia Forward:
+- exfiltracion_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 58 - Usuario: noelia5
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- descarga_masiva
+
+Inferencia Forward:
+- exfiltracion_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 59 - Usuario: ines6
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- descarga_masiva
+- pais_inusual
+
+Inferencia Forward:
+- exfiltracion_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 60 - Usuario: clara7
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- multiples_hosts
+
+Inferencia Forward:
+- malware_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 61 - Usuario: clara8
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- descarga_masiva
+- intentos_login_altos
+
+Inferencia Forward:
+- exfiltracion_probable
+
+Consultas Backward:
+- incidente_critico: FALSO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: FALSO
+
+Explicación:
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+
+Recomendación:
+- Monitorización reforzada
+- Verificación manual por analista
+
+==============================
+Incidente 62 - Usuario: pablo9
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 63 - Usuario: nuria1
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- descarga_masiva
+- intentos_login_altos
+- pais_inusual
+
+Inferencia Forward:
+- compromiso_cuenta_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R7: compromiso_cuenta_probable AND exfiltracion_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 64 - Usuario: jorge2
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+
+Inferencia Forward:
+- malware_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 65 - Usuario: alberto3
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 66 - Usuario: victor4
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 67 - Usuario: diego5
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 68 - Usuario: sofia6
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 69 - Usuario: nuria7
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: FALSO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R11: incidente_critico -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 70 - Usuario: ana8
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 71 - Usuario: hugo9
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 72 - Usuario: hugo1
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 73 - Usuario: victor2
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R7: compromiso_cuenta_probable AND exfiltracion_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 74 - Usuario: diego3
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R7: compromiso_cuenta_probable AND exfiltracion_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 75 - Usuario: beatriz4
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 76 - Usuario: alberto5
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 77 - Usuario: pablo6
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 78 - Usuario: miguel7
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 79 - Usuario: miguel8
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- descarga_masiva
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- exfiltracion_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R5: descarga_masiva AND acceso_fuera_horario -> exfiltracion_probable
+R7: compromiso_cuenta_probable AND exfiltracion_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
+
+==============================
+Incidente 80 - Usuario: ines9
+==============================
+
+Hechos iniciales:
+- acceso_fuera_horario
+- adjunto_sospechoso
+- antivirus_alerta
+- ejecucion_binario
+- intentos_login_altos
+- macro_activa
+- multiples_hosts
+- pais_inusual
+
+Inferencia Forward:
+- phishing_probable
+- malware_probable
+- compromiso_cuenta_probable
+- movimiento_lateral_probable
+- incidente_critico
+- acceso_inicial_exitoso
+- ataque_multietapa
+- respuesta_prioritaria
+
+Consultas Backward:
+- incidente_critico: VERDADERO
+- ataque_multietapa: VERDADERO
+- respuesta_prioritaria: VERDADERO
+
+Explicación:
+R1: adjunto_sospechoso AND macro_activa -> phishing_probable
+R2: antivirus_alerta AND ejecucion_binario -> malware_probable
+R3: intentos_login_altos AND pais_inusual -> compromiso_cuenta_probable
+R4: acceso_fuera_horario AND multiples_hosts -> movimiento_lateral_probable
+R6: malware_probable AND movimiento_lateral_probable -> incidente_critico
+R8: phishing_probable AND compromiso_cuenta_probable -> acceso_inicial_exitoso
+R9: acceso_inicial_exitoso AND malware_probable -> ataque_multietapa
+R10: ataque_multietapa -> respuesta_prioritaria
+
+Recomendación:
+- Activar respuesta prioritaria
+- Escalar al SOC
+- Aislar el equipo afectado
+- Forzar cambio de credenciales
