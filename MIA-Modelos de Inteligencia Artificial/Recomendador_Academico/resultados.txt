@@ -1,0 +1,1376 @@
+
+====================================
+Alumno: 1
+Datos:
+ - Nota media: 7.2
+ - Matemáticas: 2.7
+ - Programación: 4.4
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 6
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - carga_reducida
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 2
+Datos:
+ - Nota media: 7.4
+ - Matemáticas: 8.7
+ - Programación: 3.1
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 3
+
+Recomendaciones:
+ - carga_reducida
+ - itinerario_general
+
+Explicación:
+ - carga_reducida: trabaja y poco tiempo disponible
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 3
+Datos:
+ - Nota media: 3.6
+ - Matemáticas: 4.1
+ - Programación: 6.7
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 10
+
+Recomendaciones:
+ - refuerzo_academico
+ - refuerzo_matematicas
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+
+====================================
+Alumno: 4
+Datos:
+ - Nota media: 5.9
+ - Matemáticas: 4.4
+ - Programación: 8.6
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 13
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - itinerario_tecnico
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_tecnico: interés tecnología y programación alta
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 5
+Datos:
+ - Nota media: 4.8
+ - Matemáticas: 4.0
+ - Programación: 7.8
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 15
+
+Recomendaciones:
+ - refuerzo_academico
+ - refuerzo_matematicas
+ - itinerario_tecnico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_tecnico: interés tecnología y programación alta
+
+====================================
+Alumno: 6
+Datos:
+ - Nota media: 3.6
+ - Matemáticas: 8.4
+ - Programación: 6.7
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 20
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 7
+Datos:
+ - Nota media: 3.8
+ - Matemáticas: 9.0
+ - Programación: 3.1
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 21
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 8
+Datos:
+ - Nota media: 4.2
+ - Matemáticas: 3.0
+ - Programación: 7.1
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 10
+
+Recomendaciones:
+ - refuerzo_academico
+ - refuerzo_matematicas
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+
+====================================
+Alumno: 9
+Datos:
+ - Nota media: 8.6
+ - Matemáticas: 5.2
+ - Programación: 5.7
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 14
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 10
+Datos:
+ - Nota media: 5.3
+ - Matemáticas: 7.2
+ - Programación: 7.4
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 20
+
+Recomendaciones:
+ - itinerario_tecnico
+ - itinerario_general
+
+Explicación:
+ - itinerario_tecnico: interés tecnología y programación alta
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 11
+Datos:
+ - Nota media: 7.7
+ - Matemáticas: 3.6
+ - Programación: 5.2
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 4
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 12
+Datos:
+ - Nota media: 4.5
+ - Matemáticas: 2.7
+ - Programación: 4.7
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 9
+
+Recomendaciones:
+ - refuerzo_academico
+ - refuerzo_matematicas
+ - carga_reducida
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 13
+Datos:
+ - Nota media: 8.9
+ - Matemáticas: 6.5
+ - Programación: 7.5
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 15
+
+Recomendaciones:
+ - itinerario_tecnico
+ - carga_intensiva
+
+Explicación:
+ - itinerario_tecnico: interés tecnología y programación alta
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 14
+Datos:
+ - Nota media: 8.8
+ - Matemáticas: 7.0
+ - Programación: 3.5
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 20
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 15
+Datos:
+ - Nota media: 6.5
+ - Matemáticas: 7.7
+ - Programación: 5.5
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 10
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 16
+Datos:
+ - Nota media: 9.5
+ - Matemáticas: 3.5
+ - Programación: 6.0
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 7
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - carga_reducida
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 17
+Datos:
+ - Nota media: 7.1
+ - Matemáticas: 8.0
+ - Programación: 5.5
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 15
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 18
+Datos:
+ - Nota media: 6.9
+ - Matemáticas: 5.8
+ - Programación: 4.3
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 24
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 19
+Datos:
+ - Nota media: 8.8
+ - Matemáticas: 7.8
+ - Programación: 7.9
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 12
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 20
+Datos:
+ - Nota media: 5.8
+ - Matemáticas: 5.7
+ - Programación: 9.2
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 19
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 21
+Datos:
+ - Nota media: 8.9
+ - Matemáticas: 8.6
+ - Programación: 4.6
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 14
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 22
+Datos:
+ - Nota media: 8.0
+ - Matemáticas: 6.3
+ - Programación: 8.0
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 18
+
+Recomendaciones:
+ - itinerario_tecnico
+ - carga_intensiva
+
+Explicación:
+ - itinerario_tecnico: interés tecnología y programación alta
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 23
+Datos:
+ - Nota media: 3.1
+ - Matemáticas: 9.0
+ - Programación: 8.7
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 4
+
+Recomendaciones:
+ - refuerzo_academico
+ - carga_reducida
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 24
+Datos:
+ - Nota media: 4.6
+ - Matemáticas: 6.5
+ - Programación: 3.1
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 20
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 25
+Datos:
+ - Nota media: 8.0
+ - Matemáticas: 3.4
+ - Programación: 5.8
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 19
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - carga_intensiva
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 26
+Datos:
+ - Nota media: 8.7
+ - Matemáticas: 5.5
+ - Programación: 4.0
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 15
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 27
+Datos:
+ - Nota media: 9.5
+ - Matemáticas: 7.0
+ - Programación: 5.6
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 10
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 28
+Datos:
+ - Nota media: 4.5
+ - Matemáticas: 4.9
+ - Programación: 6.6
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 3
+
+Recomendaciones:
+ - refuerzo_academico
+ - refuerzo_matematicas
+ - carga_reducida
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 29
+Datos:
+ - Nota media: 3.5
+ - Matemáticas: 6.9
+ - Programación: 4.1
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 5
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 30
+Datos:
+ - Nota media: 6.3
+ - Matemáticas: 4.4
+ - Programación: 5.9
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 10
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 31
+Datos:
+ - Nota media: 8.1
+ - Matemáticas: 8.2
+ - Programación: 3.8
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 14
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 32
+Datos:
+ - Nota media: 5.8
+ - Matemáticas: 5.8
+ - Programación: 7.6
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 15
+
+Recomendaciones:
+ - itinerario_tecnico
+ - itinerario_general
+
+Explicación:
+ - itinerario_tecnico: interés tecnología y programación alta
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 33
+Datos:
+ - Nota media: 7.7
+ - Matemáticas: 8.1
+ - Programación: 3.3
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 20
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 34
+Datos:
+ - Nota media: 5.9
+ - Matemáticas: 5.5
+ - Programación: 4.4
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 17
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 35
+Datos:
+ - Nota media: 8.3
+ - Matemáticas: 8.5
+ - Programación: 3.2
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 10
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 36
+Datos:
+ - Nota media: 4.1
+ - Matemáticas: 5.9
+ - Programación: 4.0
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 8
+
+Recomendaciones:
+ - refuerzo_academico
+ - carga_reducida
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 37
+Datos:
+ - Nota media: 5.5
+ - Matemáticas: 9.4
+ - Programación: 4.4
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 16
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 38
+Datos:
+ - Nota media: 7.5
+ - Matemáticas: 7.6
+ - Programación: 8.0
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 9
+
+Recomendaciones:
+ - carga_reducida
+ - itinerario_general
+
+Explicación:
+ - carga_reducida: trabaja y poco tiempo disponible
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 39
+Datos:
+ - Nota media: 4.9
+ - Matemáticas: 9.3
+ - Programación: 6.6
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 4
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 40
+Datos:
+ - Nota media: 3.3
+ - Matemáticas: 5.8
+ - Programación: 8.9
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 19
+
+Recomendaciones:
+ - refuerzo_academico
+ - itinerario_tecnico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - itinerario_tecnico: interés tecnología y programación alta
+
+====================================
+Alumno: 41
+Datos:
+ - Nota media: 3.5
+ - Matemáticas: 3.8
+ - Programación: 6.7
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 6
+
+Recomendaciones:
+ - refuerzo_academico
+ - refuerzo_matematicas
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+
+====================================
+Alumno: 42
+Datos:
+ - Nota media: 9.1
+ - Matemáticas: 6.5
+ - Programación: 6.6
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 16
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 43
+Datos:
+ - Nota media: 7.3
+ - Matemáticas: 6.5
+ - Programación: 4.7
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 24
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 44
+Datos:
+ - Nota media: 7.7
+ - Matemáticas: 4.2
+ - Programación: 5.3
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 13
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 45
+Datos:
+ - Nota media: 9.0
+ - Matemáticas: 9.1
+ - Programación: 2.6
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 20
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 46
+Datos:
+ - Nota media: 4.4
+ - Matemáticas: 4.4
+ - Programación: 9.0
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 14
+
+Recomendaciones:
+ - refuerzo_academico
+ - refuerzo_matematicas
+ - itinerario_tecnico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_tecnico: interés tecnología y programación alta
+
+====================================
+Alumno: 47
+Datos:
+ - Nota media: 4.9
+ - Matemáticas: 5.6
+ - Programación: 6.3
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 24
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 48
+Datos:
+ - Nota media: 8.3
+ - Matemáticas: 4.6
+ - Programación: 7.1
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 6
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - itinerario_tecnico
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_tecnico: interés tecnología y programación alta
+
+====================================
+Alumno: 49
+Datos:
+ - Nota media: 8.8
+ - Matemáticas: 7.7
+ - Programación: 3.6
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 25
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 50
+Datos:
+ - Nota media: 5.2
+ - Matemáticas: 7.3
+ - Programación: 8.5
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 4
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 51
+Datos:
+ - Nota media: 3.6
+ - Matemáticas: 5.5
+ - Programación: 4.4
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 7
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 52
+Datos:
+ - Nota media: 7.1
+ - Matemáticas: 4.3
+ - Programación: 7.7
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 6
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - carga_reducida
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 53
+Datos:
+ - Nota media: 3.5
+ - Matemáticas: 8.7
+ - Programación: 8.8
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 21
+
+Recomendaciones:
+ - refuerzo_academico
+ - itinerario_tecnico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - itinerario_tecnico: interés tecnología y programación alta
+
+====================================
+Alumno: 54
+Datos:
+ - Nota media: 6.6
+ - Matemáticas: 5.5
+ - Programación: 2.8
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 14
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 55
+Datos:
+ - Nota media: 4.4
+ - Matemáticas: 4.2
+ - Programación: 3.2
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 10
+
+Recomendaciones:
+ - refuerzo_academico
+ - refuerzo_matematicas
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+
+====================================
+Alumno: 56
+Datos:
+ - Nota media: 8.6
+ - Matemáticas: 9.3
+ - Programación: 8.2
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 8
+
+Recomendaciones:
+ - carga_reducida
+
+Explicación:
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 57
+Datos:
+ - Nota media: 7.8
+ - Matemáticas: 4.8
+ - Programación: 9.0
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 8
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - itinerario_tecnico
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_tecnico: interés tecnología y programación alta
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 58
+Datos:
+ - Nota media: 8.1
+ - Matemáticas: 3.3
+ - Programación: 8.6
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 9
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - carga_reducida
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 59
+Datos:
+ - Nota media: 8.3
+ - Matemáticas: 5.7
+ - Programación: 4.6
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 3
+
+Recomendaciones:
+ - carga_reducida
+
+Explicación:
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 60
+Datos:
+ - Nota media: 7.3
+ - Matemáticas: 5.3
+ - Programación: 4.5
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 14
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 61
+Datos:
+ - Nota media: 7.2
+ - Matemáticas: 5.3
+ - Programación: 9.4
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 6
+
+Recomendaciones:
+ - carga_reducida
+ - itinerario_general
+
+Explicación:
+ - carga_reducida: trabaja y poco tiempo disponible
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 62
+Datos:
+ - Nota media: 8.7
+ - Matemáticas: 4.3
+ - Programación: 6.6
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 6
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - carga_reducida
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 63
+Datos:
+ - Nota media: 6.9
+ - Matemáticas: 4.9
+ - Programación: 8.0
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 15
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 64
+Datos:
+ - Nota media: 8.8
+ - Matemáticas: 3.8
+ - Programación: 2.8
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 19
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - carga_intensiva
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 65
+Datos:
+ - Nota media: 9.0
+ - Matemáticas: 6.3
+ - Programación: 7.5
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 16
+
+Recomendaciones:
+ - itinerario_tecnico
+ - carga_intensiva
+
+Explicación:
+ - itinerario_tecnico: interés tecnología y programación alta
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 66
+Datos:
+ - Nota media: 3.5
+ - Matemáticas: 7.1
+ - Programación: 4.8
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 12
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 67
+Datos:
+ - Nota media: 6.3
+ - Matemáticas: 7.2
+ - Programación: 4.8
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 9
+
+Recomendaciones:
+ - carga_reducida
+ - itinerario_general
+
+Explicación:
+ - carga_reducida: trabaja y poco tiempo disponible
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 68
+Datos:
+ - Nota media: 5.7
+ - Matemáticas: 9.1
+ - Programación: 7.2
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 15
+
+Recomendaciones:
+ - itinerario_tecnico
+ - itinerario_general
+
+Explicación:
+ - itinerario_tecnico: interés tecnología y programación alta
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 69
+Datos:
+ - Nota media: 6.6
+ - Matemáticas: 2.5
+ - Programación: 4.5
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 17
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - itinerario_general
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 70
+Datos:
+ - Nota media: 5.9
+ - Matemáticas: 7.2
+ - Programación: 6.1
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 12
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 71
+Datos:
+ - Nota media: 6.4
+ - Matemáticas: 6.9
+ - Programación: 4.8
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 10
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 72
+Datos:
+ - Nota media: 8.2
+ - Matemáticas: 3.5
+ - Programación: 2.8
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 17
+
+Recomendaciones:
+ - refuerzo_matematicas
+ - carga_intensiva
+
+Explicación:
+ - refuerzo_matematicas: nota matemáticas inferior a 5
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 73
+Datos:
+ - Nota media: 5.7
+ - Matemáticas: 6.9
+ - Programación: 3.9
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 15
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 74
+Datos:
+ - Nota media: 4.6
+ - Matemáticas: 7.1
+ - Programación: 2.5
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 10
+
+Recomendaciones:
+ - refuerzo_academico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+
+====================================
+Alumno: 75
+Datos:
+ - Nota media: 4.1
+ - Matemáticas: 9.2
+ - Programación: 6.1
+ - Interés tecnología: si
+ - Trabaja: si
+ - Horas estudio: 6
+
+Recomendaciones:
+ - refuerzo_academico
+ - carga_reducida
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - carga_reducida: trabaja y poco tiempo disponible
+
+====================================
+Alumno: 76
+Datos:
+ - Nota media: 6.0
+ - Matemáticas: 8.1
+ - Programación: 7.2
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 22
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 77
+Datos:
+ - Nota media: 8.3
+ - Matemáticas: 8.7
+ - Programación: 5.5
+ - Interés tecnología: no
+ - Trabaja: si
+ - Horas estudio: 18
+
+Recomendaciones:
+ - carga_intensiva
+
+Explicación:
+ - carga_intensiva: nota alta y mucho tiempo disponible
+
+====================================
+Alumno: 78
+Datos:
+ - Nota media: 5.9
+ - Matemáticas: 7.8
+ - Programación: 8.4
+ - Interés tecnología: no
+ - Trabaja: no
+ - Horas estudio: 23
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general
+
+====================================
+Alumno: 79
+Datos:
+ - Nota media: 4.6
+ - Matemáticas: 5.6
+ - Programación: 7.5
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 13
+
+Recomendaciones:
+ - refuerzo_academico
+ - itinerario_tecnico
+
+Explicación:
+ - refuerzo_academico: nota media inferior a 5
+ - itinerario_tecnico: interés tecnología y programación alta
+
+====================================
+Alumno: 80
+Datos:
+ - Nota media: 5.1
+ - Matemáticas: 6.3
+ - Programación: 3.5
+ - Interés tecnología: si
+ - Trabaja: no
+ - Horas estudio: 25
+
+Recomendaciones:
+ - itinerario_general
+
+Explicación:
+ - itinerario_general: rendimiento medio general

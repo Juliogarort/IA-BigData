@@ -2,14 +2,14 @@ import pandas as pd
 import subprocess
 import os
 
+ARCHIVO_SALIDA = "resultados.txt"
+
 
 def generar_hechos(fila):
-    """
-    Convierte una fila del CSV en hechos Prolog
-    """
+
     id_alumno = int(fila["id_alumno"])
 
-    hechos = [
+    return [
         f"nota_media({id_alumno}, {fila['nota_media']}).",
         f"nota_matematicas({id_alumno}, {fila['nota_matematicas']}).",
         f"nota_programacion({id_alumno}, {fila['nota_programacion']}).",
@@ -18,88 +18,88 @@ def generar_hechos(fila):
         f"tiempo_disponible({id_alumno}, {'bajo' if fila['horas_estudio_semana'] < 10 else 'alto'})."
     ]
 
-    return hechos
+
+def explicar(rec):
+
+    explicaciones = {
+        "refuerzo_academico": "nota media inferior a 5",
+        "refuerzo_matematicas": "nota matemáticas inferior a 5",
+        "itinerario_tecnico": "interés tecnología y programación alta",
+        "carga_reducida": "trabaja y poco tiempo disponible",
+        "carga_intensiva": "nota alta y mucho tiempo disponible",
+        "itinerario_general": "rendimiento medio general"
+    }
+
+    return explicaciones.get(rec, "sin explicación")
 
 
-def ejecutar_sistema():
+def ejecutar():
 
-    # Ir a carpeta del script
     carpeta = os.path.dirname(os.path.abspath(__file__))
     os.chdir(carpeta)
 
-    # Verificar CSV
-    if not os.path.exists("alumnos.csv"):
-        print("ERROR: No existe alumnos.csv")
-        return
+    df = pd.read_csv("alumnos.csv")
 
-    try:
-        df = pd.read_csv("alumnos.csv")
-    except Exception as e:
-        print("Error leyendo CSV:", e)
-        return
+    with open(ARCHIVO_SALIDA, "w", encoding="utf-8") as salida_txt:
 
-    print("CSV cargado correctamente")
-    print("Columnas detectadas:", df.columns.tolist())
+        for _, fila in df.iterrows():
 
-    # Procesar alumnos
-    for _, fila in df.iterrows():
+            id_alumno = int(fila["id_alumno"])
 
-        id_alumno = int(fila["id_alumno"])
+            hechos = generar_hechos(fila)
 
-        # Crear hechos
-        hechos = generar_hechos(fila)
+            with open("hechos_temp.pl", "w", encoding="utf-8") as f:
+                f.write("\n".join(hechos))
 
-        # Guardar archivo temporal
-        with open("hechos_temp.pl", "w", encoding="utf-8") as f:
-            f.write("\n".join(hechos))
+            consulta = f"""
+            consult('reglas.pl'),
+            consult('hechos_temp.pl'),
+            findall(R, recomendacion({id_alumno},R), Lista),
+            write(Lista),
+            halt.
+            """
 
-        # Consulta Prolog
-        consulta = f"""
-        consult('reglas.pl'),
-        consult('hechos_temp.pl'),
-        findall(R, recomendacion({id_alumno}, R), Lista),
-        write(Lista),
-        halt.
-        """
-
-        try:
             proceso = subprocess.run(
                 ["swipl", "-g", consulta],
                 capture_output=True,
                 text=True
             )
 
+            texto = "\n====================================\n"
+            texto += f"Alumno: {id_alumno}\n"
+            texto += "Datos:\n"
+            texto += f" - Nota media: {fila['nota_media']}\n"
+            texto += f" - Matemáticas: {fila['nota_matematicas']}\n"
+            texto += f" - Programación: {fila['nota_programacion']}\n"
+            texto += f" - Interés tecnología: {fila['interes_tecnologia']}\n"
+            texto += f" - Trabaja: {fila['trabaja']}\n"
+            texto += f" - Horas estudio: {fila['horas_estudio_semana']}\n"
+
+            texto += "\nRecomendaciones:\n"
+
             salida = proceso.stdout.strip()
-            error = proceso.stderr.strip()
-
-            print("====================================")
-            print(f"Alumno: {id_alumno}")
-            print("Datos:")
-            print(f" - Nota media: {fila['nota_media']}")
-            print(f" - Matemáticas: {fila['nota_matematicas']}")
-            print(f" - Programación: {fila['nota_programacion']}")
-            print(f" - Interés tecnología: {fila['interes_tecnologia']}")
-            print(f" - Trabaja: {fila['trabaja']}")
-            print(f" - Horas estudio: {fila['horas_estudio_semana']}")
-
-            print("\nRecomendaciones:")
 
             if salida == "[]":
-                print(" - Sin recomendaciones")
+                texto += " - Sin recomendaciones\n"
+
             else:
                 recomendaciones = salida.replace("[", "").replace("]", "").split(",")
 
                 for r in recomendaciones:
-                    print(" -", r.strip())
+                    rec = r.strip()
+                    texto += f" - {rec}\n"
 
-            if error:
-                print("\nErrores Prolog:")
-                print(error)
+                texto += "\nExplicación:\n"
 
-        except FileNotFoundError:
-            print("ERROR: SWI-Prolog no está instalado o no está en PATH.")
-            return
+                for r in recomendaciones:
+                    rec = r.strip()
+                    texto += f" - {rec}: {explicar(rec)}\n"
+
+            print(texto)
+            salida_txt.write(texto)
+
+    print("\nArchivo generado:", ARCHIVO_SALIDA)
 
 
 if __name__ == "__main__":
-    ejecutar_sistema()
+    ejecutar()
