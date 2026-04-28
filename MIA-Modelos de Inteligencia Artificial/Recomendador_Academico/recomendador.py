@@ -4,23 +4,7 @@ import os
 
 ARCHIVO_SALIDA = "resultados.txt"
 
-
-def generar_hechos(fila):
-
-    id_alumno = int(fila["id_alumno"])
-
-    return [
-        f"nota_media({id_alumno}, {fila['nota_media']}).",
-        f"nota_matematicas({id_alumno}, {fila['nota_matematicas']}).",
-        f"nota_programacion({id_alumno}, {fila['nota_programacion']}).",
-        f"interes_tecnologia({id_alumno}, {fila['interes_tecnologia']}).",
-        f"trabaja({id_alumno}, {fila['trabaja']}).",
-        f"tiempo_disponible({id_alumno}, {'bajo' if fila['horas_estudio_semana'] < 10 else 'alto'})."
-    ]
-
-
 def explicar(rec):
-
     explicaciones = {
         "refuerzo_academico": "nota media inferior a 5",
         "refuerzo_matematicas": "nota matemáticas inferior a 5",
@@ -29,41 +13,47 @@ def explicar(rec):
         "carga_intensiva": "nota alta y mucho tiempo disponible",
         "itinerario_general": "rendimiento medio general"
     }
-
     return explicaciones.get(rec, "sin explicación")
 
+def generar_consulta_prolog(fila):
+    id_alumno = int(fila["id_alumno"])
+    interes = str(fila["interes_tecnologia"]).strip().lower()
+    trabaja = str(fila["trabaja"]).strip().lower()
+    tiempo = "bajo" if float(fila["horas_estudio_semana"]) < 10 else "alto"
+
+    consulta = f"""
+    consult('reglas.pl'),
+    assertz(nota_media({id_alumno}, {float(fila['nota_media'])})),
+    assertz(nota_matematicas({id_alumno}, {float(fila['nota_matematicas'])})),
+    assertz(nota_programacion({id_alumno}, {float(fila['nota_programacion'])})),
+    assertz(interes_tecnologia({id_alumno}, {interes})),
+    assertz(trabaja({id_alumno}, {trabaja})),
+    assertz(tiempo_disponible({id_alumno}, {tiempo})),
+    findall(R, recomendacion({id_alumno}, R), Lista),
+    write(Lista),
+    halt.
+    """
+    return consulta
 
 def ejecutar():
-
     carpeta = os.path.dirname(os.path.abspath(__file__))
     os.chdir(carpeta)
 
     df = pd.read_csv("alumnos.csv")
+    df.columns = df.columns.str.strip().str.lower()
 
     with open(ARCHIVO_SALIDA, "w", encoding="utf-8") as salida_txt:
-
         for _, fila in df.iterrows():
-
             id_alumno = int(fila["id_alumno"])
-
-            hechos = generar_hechos(fila)
-
-            with open("hechos_temp.pl", "w", encoding="utf-8") as f:
-                f.write("\n".join(hechos))
-
-            consulta = f"""
-            consult('reglas.pl'),
-            consult('hechos_temp.pl'),
-            findall(R, recomendacion({id_alumno},R), Lista),
-            write(Lista),
-            halt.
-            """
+            consulta = generar_consulta_prolog(fila)
 
             proceso = subprocess.run(
                 ["swipl", "-g", consulta],
                 capture_output=True,
                 text=True
             )
+
+            salida = proceso.stdout.strip()
 
             texto = "\n====================================\n"
             texto += f"Alumno: {id_alumno}\n"
@@ -74,32 +64,22 @@ def ejecutar():
             texto += f" - Interés tecnología: {fila['interes_tecnologia']}\n"
             texto += f" - Trabaja: {fila['trabaja']}\n"
             texto += f" - Horas estudio: {fila['horas_estudio_semana']}\n"
-
             texto += "\nRecomendaciones:\n"
-
-            salida = proceso.stdout.strip()
 
             if salida == "[]":
                 texto += " - Sin recomendaciones\n"
-
             else:
-                recomendaciones = salida.replace("[", "").replace("]", "").split(",")
-
+                recomendaciones = [r.strip() for r in salida.replace("[", "").replace("]", "").split(",") if r.strip()]
                 for r in recomendaciones:
-                    rec = r.strip()
-                    texto += f" - {rec}\n"
-
+                    texto += f" - {r}\n"
                 texto += "\nExplicación:\n"
-
                 for r in recomendaciones:
-                    rec = r.strip()
-                    texto += f" - {rec}: {explicar(rec)}\n"
+                    texto += f" - {r}: {explicar(r)}\n"
 
             print(texto)
             salida_txt.write(texto)
 
     print("\nArchivo generado:", ARCHIVO_SALIDA)
-
 
 if __name__ == "__main__":
     ejecutar()
