@@ -1,0 +1,448 @@
+
+====================================
+Registro: 0 (Hora: 2026-04-29 00:00:00)
+Datos:
+ - Temp. Interior: 27.5°C
+ - Temp. Exterior: 12.5°C
+ - Humedad: 62.9%
+ - CO2: 614 ppm
+ - Luces encendidas: 4
+ - Ventanas: abierta
+ - Persianas: mitad
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - abrir_ventanas_refrescar
+
+Explicación:
+ - abrir_ventanas_refrescar: temperatura interior alta y exterior más fresca que la interior
+
+====================================
+Registro: 1 (Hora: 2026-04-29 01:00:00)
+Datos:
+ - Temp. Interior: 26.5°C
+ - Temp. Exterior: 6.2°C
+ - Humedad: 57.1%
+ - CO2: 891 ppm
+ - Luces encendidas: 2
+ - Ventanas: cerrada
+ - Persianas: abierta
+ - Presencia: No
+
+Decisiones/Recomendaciones:
+ - abrir_ventanas_refrescar
+ - activar_ventilacion
+ - apagar_luces_ahorro
+ - cerrar_persianas_aislamiento
+
+Explicación:
+ - abrir_ventanas_refrescar: temperatura interior alta y exterior más fresca que la interior
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+ - apagar_luces_ahorro: casa vacía y luces encendidas
+ - cerrar_persianas_aislamiento: temperatura exterior inferior a 10°C y persianas abiertas
+
+====================================
+Registro: 2 (Hora: 2026-04-29 02:00:00)
+Datos:
+ - Temp. Interior: 17.0°C
+ - Temp. Exterior: 23.8°C
+ - Humedad: 74.6%
+ - CO2: 960 ppm
+ - Luces encendidas: 0
+ - Ventanas: cerrada
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_ventilacion
+ - activar_deshumidificador
+
+Explicación:
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+ - activar_deshumidificador: humedad relativa superior al 65%
+
+====================================
+Registro: 3 (Hora: 2026-04-29 03:00:00)
+Datos:
+ - Temp. Interior: 21.4°C
+ - Temp. Exterior: 15.5°C
+ - Humedad: 32.1%
+ - CO2: 962 ppm
+ - Luces encendidas: 3
+ - Ventanas: mitad
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_ventilacion
+ - activar_humidificador
+
+Explicación:
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+ - activar_humidificador: humedad relativa inferior al 35%
+
+====================================
+Registro: 4 (Hora: 2026-04-29 04:00:00)
+Datos:
+ - Temp. Interior: 27.8°C
+ - Temp. Exterior: 12.6°C
+ - Humedad: 51.0%
+ - CO2: 566 ppm
+ - Luces encendidas: 4
+ - Ventanas: mitad
+ - Persianas: mitad
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - abrir_ventanas_refrescar
+
+Explicación:
+ - abrir_ventanas_refrescar: temperatura interior alta y exterior más fresca que la interior
+
+====================================
+Registro: 5 (Hora: 2026-04-29 05:00:00)
+Datos:
+ - Temp. Interior: 27.4°C
+ - Temp. Exterior: 5.3°C
+ - Humedad: 55.3%
+ - CO2: 739 ppm
+ - Luces encendidas: 1
+ - Ventanas: abierta
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - abrir_ventanas_refrescar
+
+Explicación:
+ - abrir_ventanas_refrescar: temperatura interior alta y exterior más fresca que la interior
+
+====================================
+Registro: 6 (Hora: 2026-04-29 06:00:00)
+Datos:
+ - Temp. Interior: 24.5°C
+ - Temp. Exterior: 9.8°C
+ - Humedad: 57.4%
+ - CO2: 787 ppm
+ - Luces encendidas: 2
+ - Ventanas: cerrada
+ - Persianas: abierta
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - cerrar_persianas_aislamiento
+
+Explicación:
+ - cerrar_persianas_aislamiento: temperatura exterior inferior a 10°C y persianas abiertas
+
+====================================
+Registro: 7 (Hora: 2026-04-29 07:00:00)
+Datos:
+ - Temp. Interior: 22.7°C
+ - Temp. Exterior: 11.2°C
+ - Humedad: 54.6%
+ - CO2: 561 ppm
+ - Luces encendidas: 4
+ - Ventanas: mitad
+ - Persianas: cerrada
+ - Presencia: No
+
+Decisiones/Recomendaciones:
+ - apagar_luces_ahorro
+ - cerrar_ventanas_seguridad
+
+Explicación:
+ - apagar_luces_ahorro: casa vacía y luces encendidas
+ - cerrar_ventanas_seguridad: casa vacía y ventanas abiertas o a medio cerrar
+
+====================================
+Registro: 8 (Hora: 2026-04-29 08:00:00)
+Datos:
+ - Temp. Interior: 27.2°C
+ - Temp. Exterior: 12.9°C
+ - Humedad: 62.7%
+ - CO2: 737 ppm
+ - Luces encendidas: 3
+ - Ventanas: abierta
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - abrir_ventanas_refrescar
+
+Explicación:
+ - abrir_ventanas_refrescar: temperatura interior alta y exterior más fresca que la interior
+
+====================================
+Registro: 9 (Hora: 2026-04-29 09:00:00)
+Datos:
+ - Temp. Interior: 23.5°C
+ - Temp. Exterior: 15.8°C
+ - Humedad: 73.4%
+ - CO2: 464 ppm
+ - Luces encendidas: 3
+ - Ventanas: abierta
+ - Persianas: abierta
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_deshumidificador
+
+Explicación:
+ - activar_deshumidificador: humedad relativa superior al 65%
+
+====================================
+Registro: 10 (Hora: 2026-04-29 10:00:00)
+Datos:
+ - Temp. Interior: 21.7°C
+ - Temp. Exterior: 5.3°C
+ - Humedad: 47.8%
+ - CO2: 818 ppm
+ - Luces encendidas: 2
+ - Ventanas: mitad
+ - Persianas: abierta
+ - Presencia: No
+
+Decisiones/Recomendaciones:
+ - activar_ventilacion
+ - apagar_luces_ahorro
+ - cerrar_ventanas_seguridad
+ - cerrar_persianas_aislamiento
+
+Explicación:
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+ - apagar_luces_ahorro: casa vacía y luces encendidas
+ - cerrar_ventanas_seguridad: casa vacía y ventanas abiertas o a medio cerrar
+ - cerrar_persianas_aislamiento: temperatura exterior inferior a 10°C y persianas abiertas
+
+====================================
+Registro: 11 (Hora: 2026-04-29 11:00:00)
+Datos:
+ - Temp. Interior: 17.8°C
+ - Temp. Exterior: 20.4°C
+ - Humedad: 46.1%
+ - CO2: 432 ppm
+ - Luces encendidas: 0
+ - Ventanas: mitad
+ - Persianas: abierta
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - Sin acciones requeridas
+
+====================================
+Registro: 12 (Hora: 2026-04-29 12:00:00)
+Datos:
+ - Temp. Interior: 20.4°C
+ - Temp. Exterior: 6.3°C
+ - Humedad: 44.6%
+ - CO2: 861 ppm
+ - Luces encendidas: 2
+ - Ventanas: cerrada
+ - Persianas: mitad
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_ventilacion
+
+Explicación:
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+
+====================================
+Registro: 13 (Hora: 2026-04-29 13:00:00)
+Datos:
+ - Temp. Interior: 24.9°C
+ - Temp. Exterior: 22.0°C
+ - Humedad: 40.6%
+ - CO2: 953 ppm
+ - Luces encendidas: 2
+ - Ventanas: abierta
+ - Persianas: mitad
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_ventilacion
+
+Explicación:
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+
+====================================
+Registro: 14 (Hora: 2026-04-29 14:00:00)
+Datos:
+ - Temp. Interior: 19.2°C
+ - Temp. Exterior: 13.8°C
+ - Humedad: 70.3%
+ - CO2: 630 ppm
+ - Luces encendidas: 0
+ - Ventanas: abierta
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_deshumidificador
+
+Explicación:
+ - activar_deshumidificador: humedad relativa superior al 65%
+
+====================================
+Registro: 15 (Hora: 2026-04-29 15:00:00)
+Datos:
+ - Temp. Interior: 25.3°C
+ - Temp. Exterior: 13.2°C
+ - Humedad: 40.3%
+ - CO2: 956 ppm
+ - Luces encendidas: 2
+ - Ventanas: mitad
+ - Persianas: cerrada
+ - Presencia: No
+
+Decisiones/Recomendaciones:
+ - abrir_ventanas_refrescar
+ - activar_ventilacion
+ - apagar_luces_ahorro
+ - cerrar_ventanas_seguridad
+
+Explicación:
+ - abrir_ventanas_refrescar: temperatura interior alta y exterior más fresca que la interior
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+ - apagar_luces_ahorro: casa vacía y luces encendidas
+ - cerrar_ventanas_seguridad: casa vacía y ventanas abiertas o a medio cerrar
+
+====================================
+Registro: 16 (Hora: 2026-04-29 16:00:00)
+Datos:
+ - Temp. Interior: 18.2°C
+ - Temp. Exterior: 10.9°C
+ - Humedad: 50.5%
+ - CO2: 905 ppm
+ - Luces encendidas: 3
+ - Ventanas: cerrada
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - encender_calefaccion
+ - activar_ventilacion
+
+Explicación:
+ - encender_calefaccion: temperatura interior inferior a 19°C y exterior inferior a 18°C
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+
+====================================
+Registro: 17 (Hora: 2026-04-29 17:00:00)
+Datos:
+ - Temp. Interior: 20.9°C
+ - Temp. Exterior: 7.4°C
+ - Humedad: 70.8%
+ - CO2: 658 ppm
+ - Luces encendidas: 0
+ - Ventanas: abierta
+ - Persianas: mitad
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_deshumidificador
+
+Explicación:
+ - activar_deshumidificador: humedad relativa superior al 65%
+
+====================================
+Registro: 18 (Hora: 2026-04-29 18:00:00)
+Datos:
+ - Temp. Interior: 22.6°C
+ - Temp. Exterior: 5.1°C
+ - Humedad: 48.8%
+ - CO2: 773 ppm
+ - Luces encendidas: 4
+ - Ventanas: abierta
+ - Persianas: mitad
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - Sin acciones requeridas
+
+====================================
+Registro: 19 (Hora: 2026-04-29 19:00:00)
+Datos:
+ - Temp. Interior: 23.1°C
+ - Temp. Exterior: 9.4°C
+ - Humedad: 48.2%
+ - CO2: 786 ppm
+ - Luces encendidas: 0
+ - Ventanas: cerrada
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - Sin acciones requeridas
+
+====================================
+Registro: 20 (Hora: 2026-04-29 20:00:00)
+Datos:
+ - Temp. Interior: 20.1°C
+ - Temp. Exterior: 11.0°C
+ - Humedad: 31.7%
+ - CO2: 624 ppm
+ - Luces encendidas: 0
+ - Ventanas: cerrada
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_humidificador
+
+Explicación:
+ - activar_humidificador: humedad relativa inferior al 35%
+
+====================================
+Registro: 21 (Hora: 2026-04-29 21:00:00)
+Datos:
+ - Temp. Interior: 24.5°C
+ - Temp. Exterior: 17.7°C
+ - Humedad: 53.9%
+ - CO2: 602 ppm
+ - Luces encendidas: 1
+ - Ventanas: cerrada
+ - Persianas: mitad
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - Sin acciones requeridas
+
+====================================
+Registro: 22 (Hora: 2026-04-29 22:00:00)
+Datos:
+ - Temp. Interior: 19.7°C
+ - Temp. Exterior: 12.4°C
+ - Humedad: 66.1%
+ - CO2: 910 ppm
+ - Luces encendidas: 4
+ - Ventanas: cerrada
+ - Persianas: cerrada
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - activar_ventilacion
+ - activar_deshumidificador
+
+Explicación:
+ - activar_ventilacion: niveles de CO2 superiores a 800 ppm
+ - activar_deshumidificador: humedad relativa superior al 65%
+
+====================================
+Registro: 23 (Hora: 2026-04-29 23:00:00)
+Datos:
+ - Temp. Interior: 26.2°C
+ - Temp. Exterior: 6.8°C
+ - Humedad: 44.4%
+ - CO2: 745 ppm
+ - Luces encendidas: 4
+ - Ventanas: mitad
+ - Persianas: mitad
+ - Presencia: Sí
+
+Decisiones/Recomendaciones:
+ - abrir_ventanas_refrescar
+
+Explicación:
+ - abrir_ventanas_refrescar: temperatura interior alta y exterior más fresca que la interior

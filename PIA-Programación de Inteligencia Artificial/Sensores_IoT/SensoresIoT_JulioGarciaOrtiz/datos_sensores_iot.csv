@@ -1,0 +1,25 @@
+id_registro,timestamp,temp_exterior_c,temp_interior_c,humedad_pct,luces_encendidas,estado_ventanas,estado_persianas,presencia,co2_ppm
+0,2026-04-29 00:00:00,12.5,27.5,62.9,4,abierta,mitad,True,614
+1,2026-04-29 01:00:00,6.2,26.5,57.1,2,cerrada,abierta,False,891
+2,2026-04-29 02:00:00,23.8,17.0,74.6,0,cerrada,cerrada,True,960
+3,2026-04-29 03:00:00,15.5,21.4,32.1,3,mitad,cerrada,True,962
+4,2026-04-29 04:00:00,12.6,27.8,51.0,4,mitad,mitad,True,566
+5,2026-04-29 05:00:00,5.3,27.4,55.3,1,abierta,cerrada,True,739
+6,2026-04-29 06:00:00,9.8,24.5,57.4,2,cerrada,abierta,True,787
+7,2026-04-29 07:00:00,11.2,22.7,54.6,4,mitad,cerrada,False,561
+8,2026-04-29 08:00:00,12.9,27.2,62.7,3,abierta,cerrada,True,737
+9,2026-04-29 09:00:00,15.8,23.5,73.4,3,abierta,abierta,True,464
+10,2026-04-29 10:00:00,5.3,21.7,47.8,2,mitad,abierta,False,818
+11,2026-04-29 11:00:00,20.4,17.8,46.1,0,mitad,abierta,True,432
+12,2026-04-29 12:00:00,6.3,20.4,44.6,2,cerrada,mitad,True,861
+13,2026-04-29 13:00:00,22.0,24.9,40.6,2,abierta,mitad,True,953
+14,2026-04-29 14:00:00,13.8,19.2,70.3,0,abierta,cerrada,True,630
+15,2026-04-29 15:00:00,13.2,25.3,40.3,2,mitad,cerrada,False,956
+16,2026-04-29 16:00:00,10.9,18.2,50.5,3,cerrada,cerrada,True,905
+17,2026-04-29 17:00:00,7.4,20.9,70.8,0,abierta,mitad,True,658
+18,2026-04-29 18:00:00,5.1,22.6,48.8,4,abierta,mitad,True,773
+19,2026-04-29 19:00:00,9.4,23.1,48.2,0,cerrada,cerrada,True,786
+20,2026-04-29 20:00:00,11.0,20.1,31.7,0,cerrada,cerrada,True,624
+21,2026-04-29 21:00:00,17.7,24.5,53.9,1,cerrada,mitad,True,602
+22,2026-04-29 22:00:00,12.4,19.7,66.1,4,cerrada,cerrada,True,910
+23,2026-04-29 23:00:00,6.8,26.2,44.4,4,mitad,mitad,True,745
