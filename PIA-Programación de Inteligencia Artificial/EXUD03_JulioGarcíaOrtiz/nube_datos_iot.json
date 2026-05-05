@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2026-05-05 00:00",
+        "temp_interior": 20.8,
+        "temp_exterior": 12.0,
+        "humedad": 48.5
+    },
+    {
+        "id": 2,
+        "timestamp": "2026-05-05 01:00",
+        "temp_interior": 21.0,
+        "temp_exterior": 9.3,
+        "humedad": 63.2
+    },
+    {
+        "id": 3,
+        "timestamp": "2026-05-05 02:00",
+        "temp_interior": 26.3,
+        "temp_exterior": 8.8,
+        "humedad": 61.6
+    },
+    {
+        "id": 4,
+        "timestamp": "2026-05-05 03:00",
+        "temp_interior": 18.1,
+        "temp_exterior": 15.3,
+        "humedad": 63.0
+    },
+    {
+        "id": 5,
+        "timestamp": "2026-05-05 04:00",
+        "temp_interior": 21.8,
+        "temp_exterior": 18.0,
+        "humedad": 61.0
+    },
+    {
+        "id": 6,
+        "timestamp": "2026-05-05 05:00",
+        "temp_interior": 18.1,
+        "temp_exterior": 20.9,
+        "humedad": 31.0
+    },
+    {
+        "id": 7,
+        "timestamp": "2026-05-05 06:00",
+        "temp_interior": 17.2,
+        "temp_exterior": 18.1,
+        "humedad": 58.8
+    },
+    {
+        "id": 8,
+        "timestamp": "2026-05-05 07:00",
+        "temp_interior": 22.0,
+        "temp_exterior": 23.0,
+        "humedad": 59.1
+    },
+    {
+        "id": 9,
+        "timestamp": "2026-05-05 08:00",
+        "temp_interior": 18.1,
+        "temp_exterior": 10.2,
+        "humedad": 46.6
+    },
+    {
+        "id": 10,
+        "timestamp": "2026-05-05 09:00",
+        "temp_interior": 17.6,
+        "temp_exterior": 16.9,
+        "humedad": 72.9
+    },
+    {
+        "id": 11,
+        "timestamp": "2026-05-05 10:00",
+        "temp_interior": 26.3,
+        "temp_exterior": 11.7,
+        "humedad": 40.9
+    },
+    {
+        "id": 12,
+        "timestamp": "2026-05-05 11:00",
+        "temp_interior": 21.9,
+        "temp_exterior": 9.3,
+        "humedad": 36.0
+    },
+    {
+        "id": 13,
+        "timestamp": "2026-05-05 12:00",
+        "temp_interior": 27.6,
+        "temp_exterior": 14.6,
+        "humedad": 56.5
+    },
+    {
+        "id": 14,
+        "timestamp": "2026-05-05 13:00",
+        "temp_interior": 17.3,
+        "temp_exterior": 25.0,
+        "humedad": 68.0
+    },
+    {
+        "id": 15,
+        "timestamp": "2026-05-05 14:00",
+        "temp_interior": 18.7,
+        "temp_exterior": 8.9,
+        "humedad": 34.3
+    },
+    {
+        "id": 16,
+        "timestamp": "2026-05-05 15:00",
+        "temp_interior": 24.0,
+        "temp_exterior": 23.5,
+        "humedad": 43.0
+    },
+    {
+        "id": 17,
+        "timestamp": "2026-05-05 16:00",
+        "temp_interior": 17.3,
+        "temp_exterior": 11.4,
+        "humedad": 40.0
+    },
+    {
+        "id": 18,
+        "timestamp": "2026-05-05 17:00",
+        "temp_interior": 26.5,
+        "temp_exterior": 19.5,
+        "humedad": 72.8
+    },
+    {
+        "id": 19,
+        "timestamp": "2026-05-05 18:00",
+        "temp_interior": 27.9,
+        "temp_exterior": 13.3,
+        "humedad": 31.3
+    },
+    {
+        "id": 20,
+        "timestamp": "2026-05-05 19:00",
+        "temp_interior": 21.2,
+        "temp_exterior": 12.8,
+        "humedad": 34.9
+    },
+    {
+        "id": 21,
+        "timestamp": "2026-05-05 20:00",
+        "temp_interior": 19.7,
+        "temp_exterior": 6.0,
+        "humedad": 50.3
+    },
+    {
+        "id": 22,
+        "timestamp": "2026-05-05 21:00",
+        "temp_interior": 20.1,
+        "temp_exterior": 13.8,
+        "humedad": 51.1
+    },
+    {
+        "id": 23,
+        "timestamp": "2026-05-05 22:00",
+        "temp_interior": 24.5,
+        "temp_exterior": 12.0,
+        "humedad": 37.0
+    },
+    {
+        "id": 24,
+        "timestamp": "2026-05-05 23:00",
+        "temp_interior": 19.1,
+        "temp_exterior": 9.3,
+        "humedad": 63.5
+    }
+]
