@@ -1,0 +1,52 @@
+{
+  "annotations": {"list": []},
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "CPU uso (%)",
+      "gridPos": {"h": 9, "w": 12, "x": 0, "y": 0},
+      "targets": [
+        {
+          "expr": "100 - (avg by (node) (rate(node_cpu_seconds_total{mode=\"idle\"}[1m])) * 100)",
+          "legendFormat": "{{node}}",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Memoria disponible (%)",
+      "gridPos": {"h": 9, "w": 12, "x": 12, "y": 0},
+      "targets": [
+        {
+          "expr": "(node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) * 100",
+          "legendFormat": "{{node}}",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Targets UP",
+      "gridPos": {"h": 6, "w": 6, "x": 0, "y": 9},
+      "targets": [
+        {"expr": "sum(up{job=\"node\"})", "refId": "A"}
+      ]
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["node-exporter", "demo"],
+  "templating": {"list": []},
+  "time": {"from": "now-15m", "to": "now"},
+  "timepicker": {},
+  "timezone": "",
+  "title": "Mini Node Exporter (demo)",
+  "uid": "mini-node-exporter-demo",
+  "version": 1
+}
